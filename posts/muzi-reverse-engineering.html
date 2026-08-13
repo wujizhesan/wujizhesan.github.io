@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html  lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/yun.svg">
+    <script>
+    ;(function () {
+      const prefersDark =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
+      if (setting === 'dark' || (prefersDark && setting !== 'light'))
+        document.documentElement.classList.toggle('dark', true)
+    })()
+    </script>
+  <style type="text/css">
+    :root { color-scheme: light dark; --va-c-bg: #fff; }
+    html.dark { --va-c-bg: #000; }
+    html { background-color: var(--va-c-bg); }
+  </style><style id="valaxy-fouc">body{opacity:0!important}</style><style>body{transition:opacity .15s ease}</style><noscript><style>body{opacity:1!important}</style></noscript><script>(function foucGuardScript(maxDuration) {
+  var done = 0;
+  function reveal() {
+    if (done) return;
+    done = 1;
+    var s = document.getElementById("valaxy-fouc");
+    if (s) s.remove();
+  }
+  function check() {
+    var links = document.querySelectorAll('link[rel="stylesheet"]');
+    for (var i = 0; i < links.length; i++) {
+      if (!links[i].sheet) return;
+    }
+    reveal();
+  }
+  new MutationObserver(check).observe(document.head, {
+    childList: true,
+    attributes: true,
+    attributeFilter: ["media", "rel"]
+  });
+  addEventListener("load", reveal);
+  if (maxDuration)
+    setTimeout(reveal, maxDuration);
+})(5000)</script>
+    <script>
+    const locale = localStorage.getItem('valaxy-locale') || 'zh-CN';
+    document.documentElement.setAttribute('lang', locale);
+    </script>
+    
+  <script type="module" crossorigin src="/assets/index.BlqXrBva.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime.hePW80VL.js">
+  <link rel="modulepreload" crossorigin href="/assets/framework.CSzCw9LZ.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-i18n.DPiClx16.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-router.4BejMmlS.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/dayjs.jVvjK6ua.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/pinia.BB0vZneo.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/@vueuse/motion.ZsolTB8c.js">
+  <link rel="modulepreload" crossorigin href="/assets/theme.DTr9S80U.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/nprogress.Dew4DlVv.js">
+  <link rel="stylesheet" crossorigin href="/assets/style.DC_Kt9jH.css">
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.DMm9YOAa.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.BEiXGLvX.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.CTRA-rTL.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.CL6g_b3V.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.BsDP51OF.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.CTYiF6lA.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.Dxdc4cR9.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Cx986IdX.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Jm3AIy58.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.SpSLRI95.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.NWA7e6Wa.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.BMLOBm91.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.B22Nviop.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.Dr94JaBh.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.iY-2wyZ7.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.t53AETM-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.DA0__PXp.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.D1sUS0GD.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.DbIhKOiC.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.C3H0VqGB.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.DN2j7dab.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.CS6fqUqJ.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D3wIWfF6.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D5yQViql.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.mCD8mA8B.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.C195tn64.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.Dy4dx90m.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.oD1tc_U0.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size3-Regular.CTq5MqoE.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.Dl5lxZxV.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.BF-4gkZK.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.CO6r4hn1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.C0xS9mPB.woff" as="font" type="font/woff" crossorigin>
+<link rel="modulepreload" crossorigin href="/assets/theme.DTr9S80U.js">
+<link rel="preload" href="/assets/none.DLM1AMsD.jpg" as="image">
+<link rel="preload" href="/assets/bg-img.kXdNMxcF.jpg" as="image">
+<link rel="preload" href="/assets/sidebar-bg-img.mp54gEws.webp" as="image">
+<link rel="modulepreload" crossorigin href="/assets/muzi-reverse-engineering.BfJ6nS9M.js">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>睦子：一次从 QAPI 到 QChrome 的双管线重建 - 留沙碎念</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&display=swap">
+<meta name="description" content="复盘睦子项目如何拆清知识库管理后台与聚合浏览器两个组件，并分别建立 Vue 与 React/Electron 的逆向重建管线。">
+<meta property="og:description" content="真正的突破不是多写了几个页面，而是确认目标产品由 QAPI、QChrome 和 QWIN 三部分组成，从此让两条前端管线各自回到正确边界。">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:locale:alternate" content>
+<meta property="og:site_name" content="留沙碎念">
+<meta property="og:title" content="睦子：一次从 QAPI 到 QChrome 的双管线重建">
+<meta property="og:image" content="/images/1.jpg">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://wujizhesan.github.io/">
+<link rel="icon" href="/yun.svg" type="image/svg+xml">
+<meta name="generator" content="Valaxy 1.0.0-rc.5">
+<meta name="theme-color" content="#fff">
+<meta name="msapplication-TileColor" content="#fff">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+  <div id="app"><!--[--><!--[--><!--[--><!--v-if--><!--v-if--><div class="yun-page-header-gradient"></div><div class="yun-nav-menu z-$yun-z-nav-menu fixed bg-transparent" data-v-e1a07c12><!--  --><div class="inline-flex justify-start items-center flex-1" data-v-e1a07c12><button type="button" class="vt-hamburger menu-btn sidebar-toggle leading-4 size-12 lg:hidden!" aria-label="mobile navigation" aria-expanded="false" inline-flex cursor="pointer" hover="bg-white/80 dark:bg-black/80" z="$yun-z-menu-btn" data-v-e1a07c12><span class="vt-hamburger-container"><span class="vt-hamburger-top"></span><span class="vt-hamburger-middle"></span><span class="vt-hamburger-bottom"></span></span></button><a href="/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 data-v-e1a07c12><!--[--><div class="size-6 i-ri-home-4-line"></div><!--]--></a><div class="hidden lg:contents" data-v-e1a07c12><!--[--><a href="/posts/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="menu.posts" data-v-e1a07c12><!--[--><div class="size-6 i-ri-article-line"></div><!--]--></a><a href="/projects/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="项目" data-v-e1a07c12><!--[--><div class="size-6 i-ri-code-box-line"></div><!--]--></a><a href="/sites/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="站点地图" data-v-e1a07c12><!--[--><div class="size-6 i-ri-route-line"></div><!--]--></a><a href="/sponsors/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="赞助者们" data-v-e1a07c12><!--[--><div class="size-6 i-ri-heart-3-line"></div><!--]--></a><!--]--></div></div><div class="flex flex-1 flex-center" data-v-e1a07c12><div flex="~ center col h-full" class="nav-menu-title-container cursor-pointer" data-v-e1a07c12><!----><span class="font-light truncate">留沙碎念</span></div></div><div class="inline-flex-center justify-end items-center flex-1" data-v-e1a07c12><!-- <template v-if="!app.isMobile && themeConfig.nav">
+          <template v-for="item in themeConfig.nav" :key="item.text">
+            <AppLink
+              v-if="'link' in item"
+              :to="item.link"
+              class="menu-btn inline-flex-center p-2 transition text-$va-c-text"
+              inline-flex cursor="pointer"
+              hover="bg-white/80 dark:bg-black/80"
+              z="$yun-z-menu-btn"
+            >
+              {{ item.text }}
+            </AppLink>
+            <template v-else-if="'items' in item" />
+          </template>
+        </template> --><!----><button class="yun-icon-btn yun-toggle-dark rounded-none!" title="切换深色模式" data-v-e1a07c12><div i="ri-sun-line dark:ri-moon-line"></div></button><!--[--><button class="yun-search-btn yun-icon-btn popup-trigger rounded-none! size-12 inline-flex justify-center items-center" text="xl $va-c-text" title="搜索"><div i-ri-search-line op-80 hover="op-100"></div></button><!----><!--]--></div></div><!----><!--v-if--><!----><!--[--><div class="yun-bg"></div><!--]--><!----><a href="#" class="back-to-top yun-icon-btn bg-$va-c-bg-soft shadow-md"><div class="size-8" i-ri-arrow-up-s-line></div><svg class="progress-circle-container" viewBox="0 0 100 100"><circle stroke-dasharray="301.59289474462014 301.59289474462014" stroke-dashoffset="301.59289474462014" stroke="currentColor" stroke-width="2" stroke-linecap="round" class="progress-circle" cx="50" cy="50" r="48" fill="none"></circle></svg></a><!--]--><!--[--><!--]--><!----><!--]--><div class="min-h-screen flex flex-col"><div class="mt-12 md:mt-24 yun-layout-wrapper__content"><!--[--><div class="yun-layout-left gap-4 sticky top-$yun-margin-top w-80"><!--[--><div class="yun-card flex-center rounded-2 overflow-hidden p-4 min-h-sm" flex="~ col gap-1" min-h="100px" bg="$va-c-bg-light"><!----><!----><div class="yun-card-body relative" w="full" flex="~ col" items="center"><!--[--><div class="site-info gap-1 items-center text-center" flex="~ col" p="t-8"><a href="/about" class="site-author-avatar inline-flex-center"><div class="relative yun-author-avatar"><div class="absolute size-full avatar-bg bg-image-$yun-home-hero-image-background-image filter-blur-2xl op-30"></div><img class="rounded-full size-full bg-white dark:bg-white/20 p-1 m-0 absolute" src="https://github.com/wujizhesan.png?size=256" alt="avatar"><span class="site-author-status absolute" title="The moonlight is beautiful.">🌌</span></div></a><a href="/about" class="site-author-name font-black font-serif text-$va-c-text op-80 hover:op-100 flex-center">秋叶白</a><span class="site-name text-lg leading-loose">留沙碎念</span><h4 class="site-subtitle block op-70" text="xs">秋叶之白，无寂乎哉</h4><div class="site-description">秋叶白的个人博客</div></div><div class="yun-gradient-line my-2 op-20"></div><nav class="site-nav" text-xl mt-2><a href="/archives/" class="post-classify-nav-item gap-1 w-20 p-2 rounded transition op-80" flex="~ col center" title="归档" hover="bg-$va-c-bg-soft op-100"><div flex="~ col" class="text-$va-c-text inline-flex-center gap-1"><!-- Use CSS to toggle icons based on router-link-active class to avoid SSR hydration mismatch --><div class="text-2xl icon-default i-ri-archive-line"></div><div class="text-2xl icon-active i-ri-archive-fill"></div><span class="text-xs">归档</span></div><span class="count text-base text-black/80 dark:text-white/80">12</span></a><a href="/categories/" class="post-classify-nav-item gap-1 w-20 p-2 rounded transition op-80" flex="~ col center" title="分类" hover="bg-$va-c-bg-soft op-100"><div flex="~ col" class="text-$va-c-text inline-flex-center gap-1"><!-- Use CSS to toggle icons based on router-link-active class to avoid SSR hydration mismatch --><div class="text-2xl icon-default i-ri-folder-2-line"></div><div class="text-2xl icon-active i-ri-folder-2-fill"></div><span class="text-xs">分类</span></div><span class="count text-base text-black/80 dark:text-white/80">2</span></a><a href="/tags/" class="post-classify-nav-item gap-1 w-20 p-2 rounded transition op-80" flex="~ col center" title="标签" hover="bg-$va-c-bg-soft op-100"><div flex="~ col" class="text-$va-c-text inline-flex-center gap-1"><!-- Use CSS to toggle icons based on router-link-active class to avoid SSR hydration mismatch --><div class="text-2xl icon-default i-ri-price-tag-3-line"></div><div class="text-2xl icon-active i-ri-price-tag-3-fill"></div><span class="text-xs">标签</span></div><span class="count text-base text-black/80 dark:text-white/80">34</span></a></nav><div class="yun-gradient-line my-2 op-20"></div><div class="links-of-author"><!--[--><a class="links-of-author-item yun-icon-btn" rel="noopener" href="https://github.com/wujizhesan" title="GitHub" target="_blank" style="color:#6e5494;"><div class="i-ri-github-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="https://y.music.163.com/m/user?id=1986115233" title="网易云音乐" target="_blank" style="color:#C10D0C;"><div class="i-ri-netease-cloud-music-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="https://space.bilibili.com/194244401" title="哔哩哔哩" target="_blank" style="color:#00AEEC;"><div class="i-ri-bilibili-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="/atom.xml" title="RSS" target="_blank" style="color:#f26522;"><div class="i-ri-rss-line icon"></div></a><!--]--></div><div class="yun-gradient-line my-2 op-20"></div><div class="links flex-center"><!--[--><a href="/about/" class="va-link link-item yun-icon-btn" inline-flex title="关于" style="color:undefined;"><!--[--><div class="i-ri-user-3-line icon size-6"></div><!--]--></a><a href="/projects/" class="va-link link-item yun-icon-btn" inline-flex title="项目" style="color:undefined;"><!--[--><div class="i-ri-code-box-line icon size-6"></div><!--]--></a><a href="/sites/" class="va-link link-item yun-icon-btn" inline-flex title="站点" style="color:undefined;"><!--[--><div class="i-ri-route-line icon size-6"></div><!--]--></a><a href="/sponsors/" class="va-link link-item yun-icon-btn" inline-flex title="赞助" style="color:#f87171;"><!--[--><div class="i-ri-heart-3-line icon size-6"></div><!--]--></a><!--]--></div><!--]--></div><!----></div><!--[--><!--
+    Empty placeholder, meant to be overridden by the user (see demo/yun/components/YunAdBoard.vue).
+    `v-if="false"` renders a comment node instead of a real element: this avoids the SSR hydration
+    crash a raw `<template>` causes (#711), while still adding no gap to the parent flex layout,
+    which an empty `<div>` would (ab57216f).
+  --><!----><!--]--><!--]--></div><main class="yun-main lt-md:w-full" flex="~ center"><!--[--><div class="content w-full md:w-3xl lg:w-2xl xl:w-2xl 2xl:w-4xl" flex="~ col grow" p="lt-md:0"><div class="yun-card flex-center rounded-2 overflow-hidden" flex="col" min-h="100px" bg="$va-c-bg-light" m="0"><img width="640" height="360" class="yun-cover object-cover select-none" h="64 md:sm" w="full" src="/images/1.jpg" loading="lazy" alt><!----><div class="yun-card-body relative" w="full" flex="~ col" items="center"><!--[--><!----><div class="mt-8 mb-4"><!--[--><header class="post-header" cover="/images/1.jpg"><h1 p="2" text="2xl center" font="serif black" style="color:" class="post-title flex-center"><!----><span inline-flex class="leading-none">睦子：一次从 QAPI 到 QChrome 的双管线重建</span></h1></header><!--]--></div><!--[--><!--[--><!--[--><!--[--><!----><div flex="~ center" text="sm" class="post-meta-col post-meta gap-4"><div class="post-time flex items-center gap-4"><span class="posted-time inline-flex-center gap-1" title="发表于2026-08-14 00:42:00"><div class="inline-block" i-ri-calendar-line></div><time class="op-80">2026-08-14</time></span><span class="edited-time inline-flex-center gap-1" title="更新于2026-08-14 00:47:04"><div i-ri-calendar-2-line></div><time class="op-80">2026-08-14</time></span></div><!--[--><!--]--><div class="inline-flex-center gap-4"><div class="inline-flex-center post-counter gap-4"><span class="word-count inline-flex-center gap-1" title="本文字数"><div class="inline-block" i-ri-file-word-line></div><span class="op-80">985</span></span><span class="reading-time inline-flex-center gap-1" title="阅读时长"><div i-ri-timer-line></div><time class="op-80">4m</time></span></div><!----><!----></div></div><!--]--><!----><div class="inline-flex mt-2" text="sm" py="1"><a href="/categories?category=%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B" class="transition post-category inline-flex-center text-xs border-$va-c-divider" px-2 h="7" border rounded-full hover="bg-blue-500 text-white"><div m="x-1" inline-flex i-ri-folder-2-line></div><span>逆向工程</span></a><span mx="2"></span><div class="post-tags inline-flex" items="center" gap="1" flex="wrap 1" justify="end"><!--[--><a href="/tags/?tag=Vue" class="transition post-tag inline-flex-center text-xs border-$va-c-divider" px-2 h="7" rounded-full border hover="bg-blue-500"><span>Vue</span></a><a href="/tags/?tag=React" class="transition post-tag inline-flex-center text-xs border-$va-c-divider" px-2 h="7" rounded-full border hover="bg-blue-500"><span>React</span></a><a href="/tags/?tag=Electron" class="transition post-tag inline-flex-center text-xs border-$va-c-divider" px-2 h="7" rounded-full border hover="bg-blue-500"><span>Electron</span></a><a href="/tags/?tag=AST" class="transition post-tag inline-flex-center text-xs border-$va-c-divider" px-2 h="7" rounded-full border hover="bg-blue-500"><span>AST</span></a><!--]--></div></div><!--]--><!--]--><!--]--><div p="x-4 b-8" class="sm:px-6 lg:px-12 xl:px-16" w="full"><!--[--><!--]--><!--[--><!-- <Transition appear> --><article class="markdown-body"><!--[--><!----><!----><!--[--><!--]--><!--[--><p>睦子项目最早遇到的问题不是代码，而是产品边界不清。</p><p>对标产品看起来像一套客服工具，实际包含知识库平台、聚合浏览器和 Windows 桌面组件。把它们混在一起时，页面、接口和桌面行为会互相干扰；确认 QAPI、QChrome、QWIN 是三个独立组件后，整个项目才被拆成两条清晰的工程管线。</p><h2 id="qapi-知识库与管理后台" tabindex="-1">QAPI：知识库与管理后台 <a class="header-anchor" href="#qapi-知识库与管理后台" aria-label="Permalink to &quot;QAPI：知识库与管理后台&quot;">​</a></h2><p>QAPI 部分使用 Vue 3、Element Plus 和 Python 后端。重建过程不是逐页照着截图手写，而是从 bundle 中提取组件与路由，再将 VNode 表达转换为可维护模板。</p><div class="language-text"><button title="Copy code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code"><code v-pre><span class="line"><span>原始 bundle</span></span>
+<span class="line"><span>  → AST 提取</span></span>
+<span class="line"><span>  → VNode 转模板</span></span>
+<span class="line"><span>  → 特殊页面重写</span></span>
+<span class="line"><span>  → 路由与接口接入</span></span>
+<span class="line"><span>  → 构建和运行验证</span></span></code></pre><button class="code-block-unfold-btn"></button></div><p>当前管理后台共有 29 条主要路由，均完成 HTTP 访问检查。部分页面能直接从原组件结构转换，复杂页面则需要展开压缩逻辑或重新组织模板。这个过程让我意识到，所谓“自动转换”并不是追求 100% 无人干预，而是把大量重复劳动交给管线，再把人的注意力留给真正复杂的 10%。</p><h2 id="qchrome-聚合浏览器桌面端" tabindex="-1">QChrome：聚合浏览器桌面端 <a class="header-anchor" href="#qchrome-聚合浏览器桌面端" aria-label="Permalink to &quot;QChrome：聚合浏览器桌面端&quot;">​</a></h2><p>QChrome 是另一套技术栈：React、Ant Design 与 Electron。它包含多账号主页、设置窗口、账号编辑、AI 对话日志、线索查看和浏览器多标签管理等界面，同时还有大量主进程模块。</p><p>这一部分的流程是：</p><div class="language-text"><button title="Copy code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code"><code v-pre><span class="line"><span>ASAR 解包</span></span>
+<span class="line"><span>  → chunk 格式化与组件定位</span></span>
+<span class="line"><span>  → React 页面重建</span></span>
+<span class="line"><span>  → 主进程模块更新</span></span>
+<span class="line"><span>  → 品牌配置修正</span></span>
+<span class="line"><span>  → Vite 构建</span></span>
+<span class="line"><span>  → ASAR 重新打包</span></span></code></pre><button class="code-block-unfold-btn"></button></div><p>当前使用的目标版本是 v1.13.0。重打包后的 ASAR 约 143MB，包含一万四千多个条目。前端构建已通过，桌面端也完成了品牌配置和主要模块更新。</p><h2 id="为什么必须保留两条管线" tabindex="-1">为什么必须保留两条管线 <a class="header-anchor" href="#为什么必须保留两条管线" aria-label="Permalink to &quot;为什么必须保留两条管线&quot;">​</a></h2><p>QAPI 和 QChrome 的共同点是它们属于同一产品，但它们的编译产物、运行时和验证方式完全不同。</p><p>QAPI 更关注 Vue 模板、路由、接口与 DOM；QChrome 还必须处理 Electron 主进程、窗口生命周期、浏览器标签与本地配置。如果强行合并成一套转换逻辑，最后只会得到大量条件分支和无法复用的补丁。</p><h2 id="质量门" tabindex="-1">质量门 <a class="header-anchor" href="#质量门" aria-label="Permalink to &quot;质量门&quot;">​</a></h2><p>睦子项目逐渐形成了明确的完成顺序：</p><ol><li>构建通过。</li><li>API 与路由检查。</li><li>浏览器运行时检查。</li><li>DOM 与截图对比。</li><li>桌面端重新打包。</li></ol><p>尤其是截图对比前，必须关闭 canvas 动画和 transition。曾经同一个页面因为动画帧不同，像素差异被放大了上千倍。对比工具没有错，错的是输入并不稳定。</p><h2 id="当前状态" tabindex="-1">当前状态 <a class="header-anchor" href="#当前状态" aria-label="Permalink to &quot;当前状态&quot;">​</a></h2><p>QAPI 的 29 条路由与 QChrome v1.13.0 均已完成构建，两个组件能够独立工作。后续重点不再是继续堆页面，而是维护管线、核验真实接口，并把特殊页面的手工改动逐步沉淀回转换器。</p><p>睦子让我真正理解了一件事：逆向工程里的架构设计，不是重新发明产品，而是把原产品已经存在的边界看清楚。</p><p>系列总览：<a href="/posts/reverse-projects-overview/">我的九个逆向工程项目</a></p><!--]--><!--]--><!----><!----></article><!-- </Transition> --><!--]--><!--[--><!--[--><!--[--><!----><ul class="post-copyright" m="y-4"><li class="post-copyright-author"><strong>本文作者：</strong><span>秋叶白</span></li><li class="post-copyright-link"><strong>本文链接：</strong><a href="https://wujizhesan.github.io/posts/muzi-reverse-engineering" target="_blank" title="本文链接">https://wujizhesan.github.io/posts/muzi-reverse-engineering</a></li><li class="post-copyright-license"><strong>版权声明：</strong><span>本博客所有文章除特别声明外，均默认采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 ">CC BY-NC-SA</a> 许可协议。</span></li></ul><!--]--><!--]--><!--]--></div><!--]--></div><!----></div><!--[--><!--]--><!--[--><div class="post-nav"><div class="post-nav-item"><a href="/posts/xiaohong-reverse-engineering" class="post-nav-prev" title="小红：WPF 双壳、WebView2 与 612 条后端路由"><div class="icon" i-ri-arrow-left-s-line></div><span class="title truncate" text="sm">小红：WPF 双壳、WebView2 与 612 条后端路由</span></a></div><div class="post-nav-item"><a href="/posts/chuhua-reverse-engineering" class="post-nav-next" title="初华：把 Chromium、三套扩展与采集链路重新接起来"><span class="title truncate" text="sm">初华：把 Chromium、三套扩展与采集链路重新接起来</span><div class="icon" i-ri-arrow-right-s-line></div></a></div></div><!--]--><!--[--><!--]--><!----><!--[--><!--
+    Empty placeholder, meant to be overridden by the user (see demo/yun/components/YunAdBoard.vue).
+    `v-if="false"` renders a comment node instead of a real element: this avoids the SSR hydration
+    crash a raw `<template>` causes (#711), while still adding no gap to the parent flex layout,
+    which an empty `<div>` would (ab57216f).
+  --><!----><!--]--><!--[--><!--]--><!--[--><!--]--></div><!--]--></main><!--[--><button class="xl:hidden toc-btn shadow-md fixed yun-icon-btn z-20 bg-$va-c-bg-soft" opacity="75" right="4" bottom="19"><div i-ri-file-list-line></div></button><!----><aside flex="~ col" class="va-card yun-aside min-h-sm rounded-2" text="center" overflow="auto"><div class="w-full" flex="~ col" pb-2><!--[--><h2 m="t-6 b-2" font="serif black">文章目录</h2><div style="display:none;" data-v-d9db7c40><div class="content" data-v-d9db7c40><div class="outline-title" data-v-d9db7c40>本页</div><div class="outline-marker" data-v-d9db7c40></div><nav aria-labelledby="doc-outline-aria-label" data-v-d9db7c40><span id="doc-outline-aria-label" class="visually-hidden" data-v-d9db7c40> Table of Contents for current page </span><ul class="root va-toc relative z-1 css-i18n-toc" data-v-d9db7c40 data-v-0a3661f1><!--[--><!--]--></ul></nav></div></div><!--]--><div class="flex-grow"></div><!----></div></aside><!--]--><!--]--></div><footer flex="~ col" class="relative yun-footer va-footer px-4 py-4 pt-0 text-$va-c-text-light w-full mt-14" bg="white dark:$va-c-bg-soft" text="center sm"><div class="yun-cloud absolute top--10 left-0 right-0"><svg class="waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" fill="var(--yun-c-cloud)"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"></use><use xlink:href="#gentle-wave" x="48" y="3"></use><use xlink:href="#gentle-wave" x="48" y="5"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><!----><div class="copyright flex justify-center items-center gap-2" p="1"><span> © <!--[-->2019 - <!--]--> 2026</span><a class="animate-pulse inline-flex" href="/" target="_blank" title="留沙碎念"><div class="i-ri-cloud-line"></div></a><span>秋叶白</span></div><div class="powered" m="2"><span>由 <a href="https://github.com/YunYouJun/valaxy.git" target="_blank" rel="noopener">Valaxy</a> <span class="op-60">v1.0.0-rc.5</span> 驱动</span><span mx-1>|</span><span><span>主题</span><span mx-1>-</span><a href="https://github.com/YunYouJun/valaxy.git" title="valaxy-theme-yun" target="_blank">Yun</a><span class="ml-1 op-60">v1.0.0-rc.5</span></span></div><!--[--><!--]--><div class="yun-footer-gradient"></div></footer></div><!--]--></div><script>window.__INITIAL_STATE__='{"pinia":{"yun-app":{"bannerAnimationDone":false},"app":{"showLoading":true},"site":{},"routerStore":{}}}'</script><script type="application/ld+json" data-hid="schema-org-graph">{"@context":"https://schema.org","@graph":[{"@id":"https://wujizhesan.github.io/#identity","@type":"Person","name":"秋叶白","url":"https://wujizhesan.github.io/","image":{"@id":"https://wujizhesan.github.io/#/schema/image/1"},"sameAs":["https://github.com/wujizhesan","https://y.music.163.com/m/user?id=1986115233","https://space.bilibili.com/194244401","/atom.xml"]},{"@id":"https://wujizhesan.github.io/#website","@type":"WebSite","dateModified":"2026-08-13T16:47:04.723Z","datePublished":"2026-08-14T00:42:00+08:00","inLanguage":"zh-CN","name":"睦子：一次从 QAPI 到 QChrome 的双管线重建","url":"https://wujizhesan.github.io/","publisher":{"@id":"https://wujizhesan.github.io/#identity"}},{"@id":"https://wujizhesan.github.io/#webpage","@type":"WebPage","dateModified":"2026-08-13T16:47:04.723Z","datePublished":"2026-08-13T16:42:00.000Z","description":"复盘睦子项目如何拆清知识库管理后台与聚合浏览器两个组件，并分别建立 Vue 与 React/Electron 的逆向重建管线。","name":"睦子：一次从 QAPI 到 QChrome 的双管线重建","url":"https://wujizhesan.github.io/","about":{"@id":"https://wujizhesan.github.io/#identity"},"isPartOf":{"@id":"https://wujizhesan.github.io/#website"},"potentialAction":[{"@type":"ReadAction","target":["https://wujizhesan.github.io/"]}]},{"@id":"https://wujizhesan.github.io/#article","dateModified":"2026-08-13T16:47:04.723Z","datePublished":"2026-08-13T16:42:00.000Z","description":"复盘睦子项目如何拆清知识库管理后台与聚合浏览器两个组件，并分别建立 Vue 与 React/Electron 的逆向重建管线。","headline":"睦子：一次从 QAPI 到 QChrome 的双管线重建","inLanguage":"zh-CN","thumbnailUrl":"https://wujizhesan.github.io/images/1.jpg","@type":["Article","BlogPosting"],"author":{"@id":"https://wujizhesan.github.io/#/schema/person/1"},"image":{"@id":"https://wujizhesan.github.io/#/schema/image/2"},"isPartOf":{"@id":"https://wujizhesan.github.io/#webpage"},"mainEntityOfPage":{"@id":"https://wujizhesan.github.io/#webpage"},"publisher":{"@id":"https://wujizhesan.github.io/#identity"}},{"@id":"https://wujizhesan.github.io/#/schema/person/1","@type":"Person","name":"秋叶白","url":"https://github.com/wujizhesan"},{"@id":"https://wujizhesan.github.io/#/schema/image/1","@type":"ImageObject","contentUrl":"https://github.com/wujizhesan.png?size=256","inLanguage":"zh-CN","url":"https://github.com/wujizhesan.png?size=256"},{"@id":"https://wujizhesan.github.io/#/schema/image/2","@type":"ImageObject","contentUrl":"https://wujizhesan.github.io/images/1.jpg","inLanguage":"zh-CN","url":"https://wujizhesan.github.io/images/1.jpg"}]}</script>
+  
+</body>
+</html>
