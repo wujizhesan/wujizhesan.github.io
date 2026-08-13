@@ -6,14 +6,14 @@
 
 ## Posts
 
-- [Agent 学习指南：从提示词到自主工作流](https://wujizhesan.github.io/posts/agent-learning-guide.md): 从大模型、工具调用、记忆与规划出发，循序渐进理解 AI Agent，并完成第一个可验证的智能体工作流。
+- [Agent 学习指南：从提示词到自主工作流](https://wujizhesan.github.io/posts/agent-learning-guide.md): 系统学习 AI Agent 的核心架构、工具调用、记忆、规划、多智能体、安全、评估与 TypeScript 实战。
 - [MeiCode：终端里的多智能体 AI 助手](https://wujizhesan.github.io/posts/meicode.md): 了解 MeiCode 的 Agent 主循环、多智能体团队、Workflow、权限机制与快速开始方式。
 
 ## Pages
 
-- [分类](https://wujizhesan.github.io/categories.md)
 - [关于](https://wujizhesan.github.io/about.md): 关于秋叶白与留沙碎念
-- [参考与链接](https://wujizhesan.github.io/links.md): 留沙碎念使用的主题、框架与设计参考
 - [归档](https://wujizhesan.github.io/archives.md)
+- [参考与链接](https://wujizhesan.github.io/links.md): 留沙碎念使用的主题、框架与设计参考
+- [分类](https://wujizhesan.github.io/categories.md)
 - [我的项目](https://wujizhesan.github.io/projects.md): 秋叶白的开源项目与技术作品
 - [标签](https://wujizhesan.github.io/tags.md)
