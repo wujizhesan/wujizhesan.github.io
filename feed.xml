@@ -4,7 +4,7 @@
         <title>留沙碎念</title>
         <link>https://wujizhesan.github.io/</link>
         <description>秋叶白的个人博客</description>
-        <lastBuildDate>Thu, 13 Aug 2026 16:30:55 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 13 Aug 2026 16:50:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,115 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2026 © 秋叶白</copyright>
         <atom:link href="https://wujizhesan.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[网店魔盒：从安装包到 .NET 8 WPF 工程结构]]></title>
+            <link>https://wujizhesan.github.io/posts/wangdianmohe-reverse-notes</link>
+            <guid isPermaLink="false">https://wujizhesan.github.io/posts/wangdianmohe-reverse-notes</guid>
+            <pubDate>Thu, 13 Aug 2026 16:49:00 GMT</pubDate>
+            <description><![CDATA[记录网店魔盒安装包、程序集、BAML、WPF 工程与嵌入依赖的提取结果，并分析 WebView2、ClearScript V8、SQLite 与 SignalR 暗示的产品架构。]]></description>
+            <content:encoded><![CDATA[<p>网店魔盒是一套 .NET 桌面应用。当前已经保留安装包、解包目录、运行文件、反编译源码和一份带 XAML/BAML 资源映射的工程结构。</p>
+<p>从项目文件可以确认，它以 .NET 8 的 Windows</p>
+<br/><p>访问 <a href="https://wujizhesan.github.io/posts/wangdianmohe-reverse-notes" target="_blank">https://wujizhesan.github.io/posts/wangdianmohe-reverse-notes</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (秋叶白)</author>
+        </item>
+        <item>
+            <title><![CDATA[挖象：一个仍处在资产侦察阶段的 Chromium 项目]]></title>
+            <link>https://wujizhesan.github.io/posts/waxiang-reverse-notes</link>
+            <guid isPermaLink="false">https://wujizhesan.github.io/posts/waxiang-reverse-notes</guid>
+            <pubDate>Thu, 13 Aug 2026 16:48:00 GMT</pubDate>
+            <description><![CDATA[记录挖象项目当前已经确认的 Chromium 安装结构、二进制资产与分析边界，以及为什么在信息不足时不应提前宣称完成。]]></description>
+            <content:encoded><![CDATA[<p>挖象是这组项目里资料最少的一项，所以这篇文章不会写成“完整复刻案例”，而是一份阶段记录。</p>
+<p>目前可以确认的是：安装目录包含主程序、卸载器和一套版本化 Chromium 运行文件；另有一个独立分析包。</p>
+<br/><p>访问 <a href="https://wujizhesan.github.io/posts/waxiang-reverse-notes" target="_blank">https://wujizhesan.github.io/posts/waxiang-reverse-notes</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (秋叶白)</author>
+        </item>
+        <item>
+            <title><![CDATA[奶绿：把 218 个 Vue 组件装进一条可回滚管线]]></title>
+            <link>https://wujizhesan.github.io/posts/naicha-reverse-engineering</link>
+            <guid isPermaLink="false">https://wujizhesan.github.io/posts/naicha-reverse-engineering</guid>
+            <pubDate>Thu, 13 Aug 2026 16:47:00 GMT</pubDate>
+            <description><![CDATA[复盘奶绿项目如何从 Electron 与 webpack 产物中提取 Vue 2 组件，持续修正 VNode 转模板管线，并用 CDP、Playwright、DOM 和像素对比建立验证闭环。]]></description>
+            <content:encoded><![CDATA[<p>奶绿是我投入管线建设最多的项目之一。目标是一套 Electron AI 营销应用，前端由 Vue 2 与 webpack 构建，后端同时存在 Node 和 Python 服务。</p>
+<p>面对上百个 chu</p>
+<br/><p>访问 <a href="https://wujizhesan.github.io/posts/naicha-reverse-engineering" target="_blank">https://wujizhesan.github.io/posts/naicha-reverse-engineering</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (秋叶白)</author>
+        </item>
+        <item>
+            <title><![CDATA[站斧与战锤：从净室重建到独立品牌分支]]></title>
+            <link>https://wujizhesan.github.io/posts/zhanfu-zhanchui-reverse-engineering</link>
+            <guid isPermaLink="false">https://wujizhesan.github.io/posts/zhanfu-zhanchui-reverse-engineering</guid>
+            <pubDate>Thu, 13 Aug 2026 16:46:00 GMT</pubDate>
+            <description><![CDATA[复盘站斧浏览器的 API、前端、Electron 与本地存储重建过程，以及为什么战锤品牌分支必须与逆向工作区长期分离。]]></description>
+            <content:encoded><![CDATA[<p>站斧与战锤是一组经常会被误认为“重复目录”的项目。实际上，站斧工作区保存原始分析、接口兼容与重建过程，战锤则是在 Phase 1 之后形成的独立品牌分支。</p>
+<p>这种分离很重要。逆向工作区需要持续对照目</p>
+<br/><p>访问 <a href="https://wujizhesan.github.io/posts/zhanfu-zhanchui-reverse-engineering" target="_blank">https://wujizhesan.github.io/posts/zhanfu-zhanchui-reverse-engineering</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (秋叶白)</author>
+        </item>
+        <item>
+            <title><![CDATA[Dr.JC：从 CRMEB 到水族商城小程序的迁移记录]]></title>
+            <link>https://wujizhesan.github.io/posts/drjc-reverse-engineering</link>
+            <guid isPermaLink="false">https://wujizhesan.github.io/posts/drjc-reverse-engineering</guid>
+            <pubDate>Thu, 13 Aug 2026 16:45:00 GMT</pubDate>
+            <description><![CDATA[记录 Dr.JC 如何在 CRMEB 的 PHP 与 Java 生态之间梳理 uni-app 小程序、API 前缀、品牌配置与微信编译流程，并说明目前仍处于侦察和部署前阶段。]]></description>
+            <content:encoded><![CDATA[<p>Dr.JC 是一个水族商城方向的小程序项目，基础来自 CRMEB 生态。与桌面应用不同，它的主要困难不是拆解二进制界面，而是梳理多个版本的源码、后端接口和微信小程序构建流程。</p>
+<p>项目同时存在 PHP</p>
+<br/><p>访问 <a href="https://wujizhesan.github.io/posts/drjc-reverse-engineering" target="_blank">https://wujizhesan.github.io/posts/drjc-reverse-engineering</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (秋叶白)</author>
+        </item>
+        <item>
+            <title><![CDATA[帕瓦：从至尊宝工具箱到可打包的 Electron 产品]]></title>
+            <link>https://wujizhesan.github.io/posts/pawa-reverse-engineering</link>
+            <guid isPermaLink="false">https://wujizhesan.github.io/posts/pawa-reverse-engineering</guid>
+            <pubDate>Thu, 13 Aug 2026 16:44:00 GMT</pubDate>
+            <description><![CDATA[复盘帕瓦项目如何组合 Electron、React、Chrome 扩展与 Flask 后端，完成 12 个页面、品牌替换、打包交付和像素验证管线。]]></description>
+            <content:encoded><![CDATA[<p>帕瓦是一套电商运营工具箱的重建项目。它由 Electron 桌面壳、React 前端、Chrome 扩展、Web 页面与 Flask 后端组成。</p>
+<p>这类产品很容易陷入“页面看起来差不多”的阶段：导航</p>
+<br/><p>访问 <a href="https://wujizhesan.github.io/posts/pawa-reverse-engineering" target="_blank">https://wujizhesan.github.io/posts/pawa-reverse-engineering</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (秋叶白)</author>
+        </item>
+        <item>
+            <title><![CDATA[小红：WPF 双壳、WebView2 与 612 条后端路由]]></title>
+            <link>https://wujizhesan.github.io/posts/xiaohong-reverse-engineering</link>
+            <guid isPermaLink="false">https://wujizhesan.github.io/posts/xiaohong-reverse-engineering</guid>
+            <pubDate>Thu, 13 Aug 2026 16:43:00 GMT</pubDate>
+            <description><![CDATA[复盘小红项目如何处理两个 WPF 桌面壳、WebView2 前端桥接、Vue 管理界面和 FastAPI 后端，并诚实区分路由覆盖与真实业务闭环。]]></description>
+            <content:encoded><![CDATA[<p>小红对标的是一套电商运营工具。原产品包含两个桌面应用：工具箱和店铺管家。它们都使用 WPF 外壳承载 WebView2 页面，再通过宿主对象与本地服务完成浏览器和业务操作。</p>
+<p>如果只复制网页，很多按</p>
+<br/><p>访问 <a href="https://wujizhesan.github.io/posts/xiaohong-reverse-engineering" target="_blank">https://wujizhesan.github.io/posts/xiaohong-reverse-engineering</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (秋叶白)</author>
+        </item>
+        <item>
+            <title><![CDATA[睦子：一次从 QAPI 到 QChrome 的双管线重建]]></title>
+            <link>https://wujizhesan.github.io/posts/muzi-reverse-engineering</link>
+            <guid isPermaLink="false">https://wujizhesan.github.io/posts/muzi-reverse-engineering</guid>
+            <pubDate>Thu, 13 Aug 2026 16:42:00 GMT</pubDate>
+            <description><![CDATA[复盘睦子项目如何拆清知识库管理后台与聚合浏览器两个组件，并分别建立 Vue 与 React/Electron 的逆向重建管线。]]></description>
+            <content:encoded><![CDATA[<p>睦子项目最早遇到的问题不是代码，而是产品边界不清。</p>
+<p>对标产品看起来像一套客服工具，实际包含知识库平台、聚合浏览器和 Windows 桌面组件。把它们混在一起时，页面、接口和桌面行为会互相干扰；确认</p>
+<br/><p>访问 <a href="https://wujizhesan.github.io/posts/muzi-reverse-engineering" target="_blank">https://wujizhesan.github.io/posts/muzi-reverse-engineering</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (秋叶白)</author>
+        </item>
+        <item>
+            <title><![CDATA[初华：把 Chromium、三套扩展与采集链路重新接起来]]></title>
+            <link>https://wujizhesan.github.io/posts/chuhua-reverse-engineering</link>
+            <guid isPermaLink="false">https://wujizhesan.github.io/posts/chuhua-reverse-engineering</guid>
+            <pubDate>Thu, 13 Aug 2026 16:41:00 GMT</pubDate>
+            <description><![CDATA[复盘初华项目如何拆分定制 Chromium 与三套扩展，处理远程依赖、扩展签名限制，并用 CDP 采集桥恢复可验证的数据链路。]]></description>
+            <content:encoded><![CDATA[<p>初华是我做过的项目里，最能说明“先认清系统边界”重要性的一个。</p>
+<p>最初看到的是一个电商采集浏览器，但拆开以后，它其实由定制 Chromium、主扩展、采集扩展和辅助扩展共同组成。浏览器负责运行环境和</p>
+<br/><p>访问 <a href="https://wujizhesan.github.io/posts/chuhua-reverse-engineering" target="_blank">https://wujizhesan.github.io/posts/chuhua-reverse-engineering</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (秋叶白)</author>
+        </item>
+        <item>
+            <title><![CDATA[我的九个逆向工程项目：从拆解原版到可验证重建]]></title>
+            <link>https://wujizhesan.github.io/posts/reverse-projects-overview</link>
+            <guid isPermaLink="false">https://wujizhesan.github.io/posts/reverse-projects-overview</guid>
+            <pubDate>Thu, 13 Aug 2026 16:40:00 GMT</pubDate>
+            <description><![CDATA[汇总初华、睦子、小红、帕瓦、Dr.JC、站斧与战锤、奶绿、挖象、网店魔盒九组逆向工程项目，以及我逐渐形成的管线、验证和交付方法。]]></description>
+            <content:encoded><![CDATA[<p>过去一段时间，我陆续做了九组逆向工程项目。它们有的是 Chromium 浏览器与扩展，有的是 Electron 桌面端，有的是 WPF 与 WebView2 混合应用，也有 uni-app 小程序和</p>
+<br/><p>访问 <a href="https://wujizhesan.github.io/posts/reverse-projects-overview" target="_blank">https://wujizhesan.github.io/posts/reverse-projects-overview</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (秋叶白)</author>
+        </item>
         <item>
             <title><![CDATA[从零理解 AI Agent：以 MeiCode 为例的学习与实践]]></title>
             <link>https://wujizhesan.github.io/posts/agent-learning-guide</link>
