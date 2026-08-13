@@ -14,7 +14,7 @@
 - [关于](https://wujizhesan.github.io/about.md): 关于秋叶白与留沙碎念
 - [归档](https://wujizhesan.github.io/archives.md)
 - [分类](https://wujizhesan.github.io/categories.md)
-- [音乐作品](https://wujizhesan.github.io/music.md): 秋叶白制作并发布在网易云音乐的 Beat 作品
+- [我做的几首歌](https://wujizhesan.github.io/music.md): 秋叶白发布在网易云音乐的 Beat 作品与创作介绍
 - [我的项目](https://wujizhesan.github.io/projects.md): 秋叶白的开源项目与技术作品
 - [站点地图](https://wujizhesan.github.io/sites.md): 留沙碎念的内容、项目与公开入口
 - [赞助与支持](https://wujizhesan.github.io/sponsors.md): 支持留沙碎念与 MeiCode 的持续维护
