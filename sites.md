@@ -36,6 +36,12 @@ siteLinks:
     blog: 秋叶白
     desc: 我制作并发布在网易云音乐的 Beat 作品。
     color: '#C10D0C'
+  - url: https://space.bilibili.com/194244401
+    avatar: /yun.svg
+    name: 哈喽MAI
+    blog: AI 音乐视频
+    desc: 声音模型训练、调教、填词与后期制作实验。
+    color: '#00AEEC'
 codeLinks:
   - url: https://github.com/wujizhesan/meicode
     avatar: https://github.com/wujizhesan.png?size=256

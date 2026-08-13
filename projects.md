@@ -41,6 +41,20 @@ projects:
         color: '#8B5CF6'
         url: https://github.com/wujizhesan/devin
         github: wujizhesan/devin
+  creative:
+    title: 创作
+    emoji: 🎵
+    collection:
+      - name: 秋叶白 · 原创 Beat
+        emoji: 🎹
+        desc: 发布在网易云音乐的原创 Beat，持续尝试中国风、Melodic Rap、Hyperpop 与 UK Drill 等方向。
+        color: '#C10D0C'
+        url: /music/
+      - name: 哈喽MAI · AI 音乐视频
+        emoji: 🎬
+        desc: 围绕 AI 声音模型展开的音乐视频实验，涉及模型训练、声音调教、填词、后期与成片组织。
+        color: '#00AEEC'
+        url: https://space.bilibili.com/194244401
   planned:
     title: 待整理
     emoji: 🗂️

@@ -21,6 +21,7 @@ keywords:
 
 - 持续完善终端多智能体 AI 助手 [MeiCode](https://github.com/wujizhesan/meicode)
 - 学习并整理 AI Agent 的工具、记忆、规划、多智能体与评估方法
+- 以「秋叶白」制作原创 Beat，以「哈喽MAI」整理 AI 音乐视频实验
 - 维护「留沙碎念」，把项目经验沉淀为可以复用的文章
 
 ## 关注的方向
@@ -42,6 +43,21 @@ MeiCode 是一个运行在终端里的命令行 AI 助手，支持文件与命�
 - [查看 GitHub 仓库](https://github.com/wujizhesan/meicode)
 - [阅读 Agent 学习文章](/posts/agent-learning-guide)
 
+### 秋叶白 · 原创 Beat
+
+以「秋叶白」的名字制作并发布原创 Beat，尝试中国风、Melodic Rap、Hyperpop 与 UK Drill 等方向。
+
+- [查看音乐作品介绍](/music/)
+- [查看网易音乐人主页](https://music.163.com/#/artist?id=58841752)
+
+### 哈喽MAI · AI 音乐视频
+
+围绕 AI 声音模型进行的音乐视频实验。在已公开的作品中，我尝试过模型训练、声音调教、填词和后期，并把结果整理成完整视频发布。
+
+- [让东风告诉你](https://www.bilibili.com/video/BV1Lw411Q7TY/)
+- [【AI东雪莲】做我的《情人》](https://www.bilibili.com/video/BV1uT411a73X/)
+- [进入哈喽MAI的 B 站空间](https://space.bilibili.com/194244401)
+
 ## 想完成的事情
 
 - [x] 做出可以实际使用的多智能体终端助手
@@ -62,10 +78,4 @@ MeiCode 是一个运行在终端里的命令行 AI 助手，支持文件与命�
 
 - GitHub：[wujizhesan](https://github.com/wujizhesan)
 - 网易云音乐：[个人主页](https://y.music.163.com/m/user?id=1986115233)
-
-## 音乐
-
-除了写代码，我也会做 Beat，并以网易音乐人「秋叶白」的名字发布作品。我会尝试中国风、emo rap、melody rap、hyperpop 和 UK drill 等不同方向。
-
-- [看看我做过的几首歌](/music/)
-- [查看网易云音乐人主页](https://music.163.com/#/artist?id=58841752)
+- 哔哩哔哩：[哈喽MAI](https://space.bilibili.com/194244401)
