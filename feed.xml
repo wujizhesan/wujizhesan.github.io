@@ -4,7 +4,7 @@
         <title>留沙碎念</title>
         <link>https://wujizhesan.github.io/</link>
         <description>秋叶白的个人博客</description>
-        <lastBuildDate>Thu, 13 Aug 2026 10:00:41 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 13 Aug 2026 10:40:21 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -19,10 +19,11 @@
             <link>https://wujizhesan.github.io/posts/meicode</link>
             <guid isPermaLink="false">https://wujizhesan.github.io/posts/meicode</guid>
             <pubDate>Thu, 13 Aug 2026 09:30:00 GMT</pubDate>
-            <description><![CDATA[介绍 MeiCode 的核心能力、技术栈与快速开始方式。]]></description>
-            <content:encoded><![CDATA[<p>MeiCode 是一个运行在终端里的命令行 AI 助手。它可以直接操作文件系统、执行命令、搜索代码，通过 Skill 系统扩展能力，并内置多智能体团队编排。</p>
-<h2>核心能力</h2>
-<h3>Agent</h3>
+            <description><![CDATA[了解 MeiCode 的 Agent 主循环、多智能体团队、Workflow、权限机制与快速开始方式。]]></description>
+            <content:encoded><![CDATA[<p>MeiCode 是一个运行在终端里的多智能体 AI 助手。它可以直接操作文件系统、执行命令、搜索代码，通过 Skill 与 Workflow 扩展能力，并让多个专职成员并行协作。</p>
+<blockquote>
+<p>从一个任务开</p>
+</blockquote>
 <br/><p>访问 <a href="https://wujizhesan.github.io/posts/meicode" target="_blank">https://wujizhesan.github.io/posts/meicode</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (秋叶白)</author>
         </item>

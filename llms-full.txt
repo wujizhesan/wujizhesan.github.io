@@ -10,57 +10,116 @@
 - **Categories**: 项目
 - **Tags**: MeiCode, TypeScript, AI, CLI
 
-介绍 MeiCode 的核心能力、技术栈与快速开始方式。
+了解 MeiCode 的 Agent 主循环、多智能体团队、Workflow、权限机制与快速开始方式。
 
-MeiCode 是一个运行在终端里的命令行 AI 助手。它可以直接操作文件系统、执行命令、搜索代码，通过 Skill 系统扩展能力，并内置多智能体团队编排。
+MeiCode 是一个运行在终端里的多智能体 AI 助手。它可以直接操作文件系统、执行命令、搜索代码，通过 Skill 与 Workflow 扩展能力，并让多个专职成员并行协作。
+
+> 从一个任务开始，让主 Agent 负责拆解，让专职成员并行执行，再由主会话汇总结果。
+
+**[在 GitHub 查看源码](https://github.com/wujizhesan/meicode)** · **[浏览项目页](/projects/)**
+
+## 项目概览
+
+| 项目 | 说明 |
+| --- | --- |
+| 语言 | TypeScript / ESM |
+| 运行环境 | Node.js |
+| 终端界面 | Ink |
+| 开源许可 | MIT |
+| 协作方式 | 主 Agent、多智能体团队、Workflow |
 
 ## 核心能力
 
 ### Agent 主循环
 
-- 支持模型请求、工具执行、结果回流和流式输出
-- 支持中断取消、上下文压缩和会话恢复
-- 检测重复工具调用，降低死循环风险
+- 完整处理模型请求、工具执行、结果回流和流式输出
+- 支持中断取消、上下文压缩、溢出落盘和会话恢复
+- 检测重复工具调用，降低无效循环风险
 
 ### 多智能体团队
 
 - 主会话可以派生专职成员并行处理任务
-- 每个成员拥有独立上下文
+- 每个成员拥有独立上下文，并可恢复历史记录
 - 使用 Git worktree 隔离文件修改
-- 通过邮箱和任务协议协作
+- 通过邮箱、任务和状态协议协作
+- 内置 team-lead、research、implement、qa 等角色
 
 ### Workflow 与 Skill
 
-- 使用声明式 Workflow 拆分复杂任务
+- 使用声明式 Workflow 拆分和追踪复杂任务
 - 支持项目级和用户级 Skill
-- 提供权限模式、路径围栏、危险命令拦截和快照回滚
+- Workflow 阶段支持子 Agent 或团队成员两种执行方式
 
-## 技术栈
+### 权限与安全
 
-MeiCode 使用 TypeScript、ESM 和 Node.js 构建，终端界面使用 Ink。
+- 提供 default、edits、plan、yolo 四级权限模式
+- 使用路径围栏限制成员写入范围
+- 拦截危险命令，并提供 Git 快照与回滚安全网
+
+## 工作方式
+
+```text
+用户任务
+  ↓
+主 Agent 分析与拆解
+  ↓
+专职成员并行执行
+  ↓
+任务、邮箱与产物汇总
+  ↓
+主会话验证并交付
+```
+
+## 适用场景
+
+- 跨多个文件的代码修改与重构
+- 需要研究、实现、测试并行推进的复杂任务
+- 可重复执行的工程流程
+- 需要权限控制、路径隔离与结果回滚的自动化工作
 
 ## 快速开始
 
-\`\`\`bash
+```bash
 npm install
 npm start
-\`\`\`
+```
 
 无人值守运行：
 
-\`\`\`bash
+```bash
 npm start -- --run "任务描述"
-\`\`\`
+```
 
 运行测试：
 
-\`\`\`bash
+```bash
 npm test
-\`\`\`
+```
+
+## 配置
+
+复制示例配置到用户目录：
+
+```bash
+cp config.example.yaml ~/.mewcode/config.yaml
+```
+
+然后填写模型 Provider 与 API Key。项目支持在配置中切换不同模型目录。
+
+## 常用命令
+
+| 命令 | 用途 |
+| --- | --- |
+| `/mode default\|edits\|plan\|yolo` | 切换权限模式 |
+| `/team create\|spawn\|assign\|tasks\|merge` | 管理团队与任务 |
+| `/workflow create\|validate\|run` | 创建、校验和运行工作流 |
+| `/session`、`/compact`、`/resume` | 管理会话与上下文 |
 
 ## 项目地址
 
-[在 GitHub 查看 MeiCode](https://github.com/wujizhesan/meicode)
+项目源码、完整目录结构与最新使用说明均保存在 GitHub：
+
+**[打开 wujizhesan/meicode](https://github.com/wujizhesan/meicode)**
 
 ## 关于
 
@@ -89,17 +148,19 @@ MeiCode 是一个运行在终端里的命令行 AI 助手，支持文件与命�
 
 
 
-## 分类
-
-
-
 ## 参考与链接
 
 留沙碎念使用的主题、框架与设计参考
 
 <YunLinks :links="frontmatter.links" :random="frontmatter.random" errorImg="/yun.png" />
 
+## 分类
+
+
+
 ## 我的项目
+
+秋叶白的开源项目与技术作品
 
 
 
