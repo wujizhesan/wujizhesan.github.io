@@ -12,10 +12,10 @@
     "items": [
         {
             "id": "https://wujizhesan.github.io/posts/agent-learning-guide",
-            "content_html": "<p>准备整理这个项目时，我重新翻了一遍 MeiCode 的代码。最开始做它，我想解决的问题其实很简单：能不能让模型不只是在对话框里给建议，而是进入终端，真正读取项目、修改文件、运行命令，并把结果交付出来</p>\n<br/><p>访问 <a href=\"https://wujizhesan.github.io/posts/agent-learning-guide\" target=\"_blank\">https://wujizhesan.github.io/posts/agent-learning-guide</a> 阅读全文。</p>",
+            "content_html": "<p>我第一次接触 Agent 时，以为它就是“大模型加几个工具”。模型会选择函数，程序执行函数，再把结果返回去，看上去并不复杂。</p>\n<p>真正动手以后，问题才一个接一个出现：工具失败了怎么办？模型重复同一个动</p>\n<br/><p>访问 <a href=\"https://wujizhesan.github.io/posts/agent-learning-guide\" target=\"_blank\">https://wujizhesan.github.io/posts/agent-learning-guide</a> 阅读全文。</p>",
             "url": "https://wujizhesan.github.io/posts/agent-learning-guide",
-            "title": "我是怎么做 MeiCode 的：一个终端 AI Agent 的设计与实现",
-            "summary": "结合 MeiCode 的真实实现，复盘一个终端 AI Agent 从工具调用、上下文管理到多智能体协作的设计过程。",
+            "title": "从零理解 AI Agent：以 MeiCode 为例的学习与实践",
+            "summary": "从大模型、工具调用和 Agent Loop 开始，系统学习规划、记忆、RAG、多智能体、安全与评估，并结合 MeiCode 的真实实现理解工程取舍。",
             "date_modified": "2026-08-13T11:20:00.000Z",
             "date_published": "2026-08-13T11:20:00.000Z",
             "author": {

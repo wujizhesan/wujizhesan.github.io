@@ -6,14 +6,14 @@
 
 ## Posts
 
-- [我是怎么做 MeiCode 的：一个终端 AI Agent 的设计与实现](https://wujizhesan.github.io/posts/agent-learning-guide.md): 结合 MeiCode 的真实实现，复盘一个终端 AI Agent 从工具调用、上下文管理到多智能体协作的设计过程。
+- [从零理解 AI Agent：以 MeiCode 为例的学习与实践](https://wujizhesan.github.io/posts/agent-learning-guide.md): 从大模型、工具调用和 Agent Loop 开始，系统学习规划、记忆、RAG、多智能体、安全与评估，并结合 MeiCode 的真实实现理解工程取舍。
 - [MeiCode：终端里的多智能体 AI 助手](https://wujizhesan.github.io/posts/meicode.md): 了解 MeiCode 的 Agent 主循环、多智能体团队、Workflow、权限机制与快速开始方式。
 
 ## Pages
 
-- [参考与链接](https://wujizhesan.github.io/links.md): 留沙碎念使用的主题、框架与设计参考
 - [关于](https://wujizhesan.github.io/about.md): 关于秋叶白与留沙碎念
 - [归档](https://wujizhesan.github.io/archives.md)
+- [参考与链接](https://wujizhesan.github.io/links.md): 留沙碎念使用的主题、框架与设计参考
 - [分类](https://wujizhesan.github.io/categories.md)
 - [标签](https://wujizhesan.github.io/tags.md)
 - [我的项目](https://wujizhesan.github.io/projects.md): 秋叶白的开源项目与技术作品

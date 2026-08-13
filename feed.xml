@@ -4,7 +4,7 @@
         <title>留沙碎念</title>
         <link>https://wujizhesan.github.io/</link>
         <description>秋叶白的个人博客</description>
-        <lastBuildDate>Thu, 13 Aug 2026 12:56:31 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 13 Aug 2026 13:09:39 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -15,12 +15,13 @@
         <copyright>CC BY-NC-SA 4.0 2026 © 秋叶白</copyright>
         <atom:link href="https://wujizhesan.github.io/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[我是怎么做 MeiCode 的：一个终端 AI Agent 的设计与实现]]></title>
+            <title><![CDATA[从零理解 AI Agent：以 MeiCode 为例的学习与实践]]></title>
             <link>https://wujizhesan.github.io/posts/agent-learning-guide</link>
             <guid isPermaLink="false">https://wujizhesan.github.io/posts/agent-learning-guide</guid>
             <pubDate>Thu, 13 Aug 2026 11:20:00 GMT</pubDate>
-            <description><![CDATA[结合 MeiCode 的真实实现，复盘一个终端 AI Agent 从工具调用、上下文管理到多智能体协作的设计过程。]]></description>
-            <content:encoded><![CDATA[<p>准备整理这个项目时，我重新翻了一遍 MeiCode 的代码。最开始做它，我想解决的问题其实很简单：能不能让模型不只是在对话框里给建议，而是进入终端，真正读取项目、修改文件、运行命令，并把结果交付出来</p>
+            <description><![CDATA[从大模型、工具调用和 Agent Loop 开始，系统学习规划、记忆、RAG、多智能体、安全与评估，并结合 MeiCode 的真实实现理解工程取舍。]]></description>
+            <content:encoded><![CDATA[<p>我第一次接触 Agent 时，以为它就是“大模型加几个工具”。模型会选择函数，程序执行函数，再把结果返回去，看上去并不复杂。</p>
+<p>真正动手以后，问题才一个接一个出现：工具失败了怎么办？模型重复同一个动</p>
 <br/><p>访问 <a href="https://wujizhesan.github.io/posts/agent-learning-guide" target="_blank">https://wujizhesan.github.io/posts/agent-learning-guide</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (秋叶白)</author>
         </item>
