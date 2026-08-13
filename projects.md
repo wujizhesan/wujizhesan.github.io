@@ -2,6 +2,7 @@
 title: 我的项目
 icon: i-ri-code-box-line
 layout: projects
+cover: /images/meicode-team.webp
 description: 秋叶白的开源项目与技术作品
 keywords:
   - MeiCode
