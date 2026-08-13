@@ -6,27 +6,17 @@
 
 ## Posts
 
-- [网店魔盒：从安装包到 .NET 8 WPF 工程结构](https://wujizhesan.github.io/posts/wangdianmohe-reverse-notes.md): 记录网店魔盒安装包、程序集、BAML、WPF 工程与嵌入依赖的提取结果，并分析 WebView2、ClearScript V8、SQLite 与 SignalR 暗示的产品架构。
-- [挖象：一个仍处在资产侦察阶段的 Chromium 项目](https://wujizhesan.github.io/posts/waxiang-reverse-notes.md): 记录挖象项目当前已经确认的 Chromium 安装结构、二进制资产与分析边界，以及为什么在信息不足时不应提前宣称完成。
-- [奶绿：把 218 个 Vue 组件装进一条可回滚管线](https://wujizhesan.github.io/posts/naicha-reverse-engineering.md): 复盘奶绿项目如何从 Electron 与 webpack 产物中提取 Vue 2 组件，持续修正 VNode 转模板管线，并用 CDP、Playwright、DOM 和像素对比建立验证闭环。
-- [站斧与战锤：从净室重建到独立品牌分支](https://wujizhesan.github.io/posts/zhanfu-zhanchui-reverse-engineering.md): 复盘站斧浏览器的 API、前端、Electron 与本地存储重建过程，以及为什么战锤品牌分支必须与逆向工作区长期分离。
-- [Dr.JC：从 CRMEB 到水族商城小程序的迁移记录](https://wujizhesan.github.io/posts/drjc-reverse-engineering.md): 记录 Dr.JC 如何在 CRMEB 的 PHP 与 Java 生态之间梳理 uni-app 小程序、API 前缀、品牌配置与微信编译流程，并说明目前仍处于侦察和部署前阶段。
-- [帕瓦：从至尊宝工具箱到可打包的 Electron 产品](https://wujizhesan.github.io/posts/pawa-reverse-engineering.md): 复盘帕瓦项目如何组合 Electron、React、Chrome 扩展与 Flask 后端，完成 12 个页面、品牌替换、打包交付和像素验证管线。
-- [小红：WPF 双壳、WebView2 与 612 条后端路由](https://wujizhesan.github.io/posts/xiaohong-reverse-engineering.md): 复盘小红项目如何处理两个 WPF 桌面壳、WebView2 前端桥接、Vue 管理界面和 FastAPI 后端，并诚实区分路由覆盖与真实业务闭环。
-- [睦子：一次从 QAPI 到 QChrome 的双管线重建](https://wujizhesan.github.io/posts/muzi-reverse-engineering.md): 复盘睦子项目如何拆清知识库管理后台与聚合浏览器两个组件，并分别建立 Vue 与 React/Electron 的逆向重建管线。
-- [初华：把 Chromium、三套扩展与采集链路重新接起来](https://wujizhesan.github.io/posts/chuhua-reverse-engineering.md): 复盘初华项目如何拆分定制 Chromium 与三套扩展，处理远程依赖、扩展签名限制，并用 CDP 采集桥恢复可验证的数据链路。
-- [我的九个逆向工程项目：从拆解原版到可验证重建](https://wujizhesan.github.io/posts/reverse-projects-overview.md): 汇总初华、睦子、小红、帕瓦、Dr.JC、站斧与战锤、奶绿、挖象、网店魔盒九组逆向工程项目，以及我逐渐形成的管线、验证和交付方法。
 - [从零理解 AI Agent：以 MeiCode 为例的学习与实践](https://wujizhesan.github.io/posts/agent-learning-guide.md): 从大模型、工具调用和 Agent Loop 开始，系统学习规划、记忆、RAG、多智能体、安全与评估，并结合 MeiCode 的真实实现理解工程取舍。
 - [MeiCode：终端里的多智能体 AI 助手](https://wujizhesan.github.io/posts/meicode.md): 了解 MeiCode 的 Agent 主循环、多智能体团队、Workflow、权限机制与快速开始方式。
 
 ## Pages
 
-- [关于](https://wujizhesan.github.io/about.md): 关于秋叶白与留沙碎念
 - [分类](https://wujizhesan.github.io/categories.md)
 - [归档](https://wujizhesan.github.io/archives.md)
+- [关于](https://wujizhesan.github.io/about.md): 关于秋叶白与留沙碎念
 - [我做的几首歌](https://wujizhesan.github.io/music.md): 秋叶白发布在网易云音乐的 Beat 作品与创作介绍
-- [我的项目](https://wujizhesan.github.io/projects.md): 秋叶白的开源项目与技术作品
 - [站点地图](https://wujizhesan.github.io/sites.md): 留沙碎念的内容、项目与公开入口
+- [我的项目](https://wujizhesan.github.io/projects.md): 秋叶白的开源项目与技术作品
 - [赞助与支持](https://wujizhesan.github.io/sponsors.md): 支持留沙碎念与 MeiCode 的持续维护
 - [标签](https://wujizhesan.github.io/tags.md)
 
