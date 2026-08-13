@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wujizhesan.github.io/sitemap-index.xml
