@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wujizhesan.github.io/</id>
     <title>留沙碎念</title>
-    <updated>2026-08-13T13:31:08.187Z</updated>
+    <updated>2026-08-13T16:30:55.757Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>秋叶白</name>
@@ -12,7 +12,7 @@
     <link rel="alternate" href="https://wujizhesan.github.io/"/>
     <link rel="self" href="https://wujizhesan.github.io/atom.xml"/>
     <subtitle>秋叶白的个人博客</subtitle>
-    <logo>https://wujizhesan.github.io/yun.png</logo>
+    <logo>https://github.com/wujizhesan.png?size=256</logo>
     <icon>https://wujizhesan.github.io/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2026 © 秋叶白</rights>
     <entry>
