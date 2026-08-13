@@ -11,6 +11,19 @@
     },
     "items": [
         {
+            "id": "https://wujizhesan.github.io/posts/agent-learning-guide",
+            "content_html": "<p>大语言模型擅长理解和生成内容，但真正的 Agent 会把“想法”变成“行动”：读取信息、拆分任务、调用工具、观察结果，再决定下一步。</p>\n<blockquote>\n<p>学习 Agent 的关键，不是记住更多框架，而是理解一个能</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://wujizhesan.github.io/posts/agent-learning-guide\" target=\"_blank\">https://wujizhesan.github.io/posts/agent-learning-guide</a> 阅读全文。</p>",
+            "url": "https://wujizhesan.github.io/posts/agent-learning-guide",
+            "title": "Agent 学习指南：从提示词到自主工作流",
+            "summary": "从大模型、工具调用、记忆与规划出发，循序渐进理解 AI Agent，并完成第一个可验证的智能体工作流。",
+            "date_modified": "2026-08-13T11:20:00.000Z",
+            "date_published": "2026-08-13T11:20:00.000Z",
+            "author": {
+                "name": "秋叶白",
+                "url": "https://github.com/wujizhesan"
+            }
+        },
+        {
             "id": "https://wujizhesan.github.io/posts/meicode",
             "content_html": "<p>MeiCode 是一个运行在终端里的多智能体 AI 助手。它可以直接操作文件系统、执行命令、搜索代码，通过 Skill 与 Workflow 扩展能力，并让多个专职成员并行协作。</p>\n<blockquote>\n<p>从一个任务开</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://wujizhesan.github.io/posts/meicode\" target=\"_blank\">https://wujizhesan.github.io/posts/meicode</a> 阅读全文。</p>",
             "url": "https://wujizhesan.github.io/posts/meicode",

@@ -1,16 +1,16 @@
-# 留沙碎念
-
-> 秋叶白的个人博客
->
-> 留沙碎念：秋叶白的个人博客，记录项目与技术实践。
-
-## Agent 学习指南：从提示词到自主工作流
-
-- **Date**: 2026-08-13
-- **Categories**: 人工智能
-- **Tags**: AI, Agent, LLM, 学习笔记
-
-从大模型、工具调用、记忆与规划出发，循序渐进理解 AI Agent，并完成第一个可验证的智能体工作流。
+---
+title: Agent 学习指南：从提示词到自主工作流
+date: '2026-08-13T19:20:00+08:00'
+description: 从大模型、工具调用、记忆与规划出发，循序渐进理解 AI Agent，并完成第一个可验证的智能体工作流。
+excerpt: Agent 不只是会聊天的模型，而是能够感知环境、规划步骤、调用工具、检查结果并持续行动的系统。这篇文章用一条清晰的学习路线带你掌握它。
+categories:
+  - 人工智能
+tags:
+  - AI
+  - Agent
+  - LLM
+  - 学习笔记
+---
 
 大语言模型擅长理解和生成内容，但真正的 Agent 会把“想法”变成“行动”：读取信息、拆分任务、调用工具、观察结果，再决定下一步。
 
@@ -204,167 +204,3 @@ Agent 能调用工具，也意味着它可能执行高风险操作。至少应�
 Agent 的核心能力可以浓缩成一句话：在明确边界内，持续选择行动，并用真实结果修正下一步。
 
 从一个工具、一个循环和一个可验证目标开始。等单 Agent 能够稳定完成任务后，再逐步加入规划、记忆、多 Agent 协作与更细致的权限控制。这样学得更快，也更容易真正做出可靠的 Agent 应用。
-
-## MeiCode：终端里的多智能体 AI 助手
-
-- **Date**: 2026-08-13
-- **Categories**: 项目
-- **Tags**: MeiCode, TypeScript, AI, CLI
-
-了解 MeiCode 的 Agent 主循环、多智能体团队、Workflow、权限机制与快速开始方式。
-
-MeiCode 是一个运行在终端里的多智能体 AI 助手。它可以直接操作文件系统、执行命令、搜索代码，通过 Skill 与 Workflow 扩展能力，并让多个专职成员并行协作。
-
-> 从一个任务开始，让主 Agent 负责拆解，让专职成员并行执行，再由主会话汇总结果。
-
-**[在 GitHub 查看源码](https://github.com/wujizhesan/meicode)** · **[浏览项目页](/projects/)**
-
-## 项目概览
-
-| 项目 | 说明 |
-| --- | --- |
-| 语言 | TypeScript / ESM |
-| 运行环境 | Node.js |
-| 终端界面 | Ink |
-| 开源许可 | MIT |
-| 协作方式 | 主 Agent、多智能体团队、Workflow |
-
-## 核心能力
-
-### Agent 主循环
-
-- 完整处理模型请求、工具执行、结果回流和流式输出
-- 支持中断取消、上下文压缩、溢出落盘和会话恢复
-- 检测重复工具调用，降低无效循环风险
-
-### 多智能体团队
-
-- 主会话可以派生专职成员并行处理任务
-- 每个成员拥有独立上下文，并可恢复历史记录
-- 使用 Git worktree 隔离文件修改
-- 通过邮箱、任务和状态协议协作
-- 内置 team-lead、research、implement、qa 等角色
-
-### Workflow 与 Skill
-
-- 使用声明式 Workflow 拆分和追踪复杂任务
-- 支持项目级和用户级 Skill
-- Workflow 阶段支持子 Agent 或团队成员两种执行方式
-
-### 权限与安全
-
-- 提供 default、edits、plan、yolo 四级权限模式
-- 使用路径围栏限制成员写入范围
-- 拦截危险命令，并提供 Git 快照与回滚安全网
-
-## 工作方式
-
-```text
-用户任务
-  ↓
-主 Agent 分析与拆解
-  ↓
-专职成员并行执行
-  ↓
-任务、邮箱与产物汇总
-  ↓
-主会话验证并交付
-```
-
-## 适用场景
-
-- 跨多个文件的代码修改与重构
-- 需要研究、实现、测试并行推进的复杂任务
-- 可重复执行的工程流程
-- 需要权限控制、路径隔离与结果回滚的自动化工作
-
-## 快速开始
-
-```bash
-npm install
-npm start
-```
-
-无人值守运行：
-
-```bash
-npm start -- --run "任务描述"
-```
-
-运行测试：
-
-```bash
-npm test
-```
-
-## 配置
-
-复制示例配置到用户目录：
-
-```bash
-cp config.example.yaml ~/.mewcode/config.yaml
-```
-
-然后填写模型 Provider 与 API Key。项目支持在配置中切换不同模型目录。
-
-## 常用命令
-
-| 命令 | 用途 |
-| --- | --- |
-| `/mode default\|edits\|plan\|yolo` | 切换权限模式 |
-| `/team create\|spawn\|assign\|tasks\|merge` | 管理团队与任务 |
-| `/workflow create\|validate\|run` | 创建、校验和运行工作流 |
-| `/session`、`/compact`、`/resume` | 管理会话与上下文 |
-
-## 项目地址
-
-项目源码、完整目录结构与最新使用说明均保存在 GitHub：
-
-**[打开 wujizhesan/meicode](https://github.com/wujizhesan/meicode)**
-
-## 分类
-
-
-
-## 关于
-
-关于秋叶白与留沙碎念
-
-## 秋叶白
-
-你好，我是秋叶白。
-
-这里是「留沙碎念」，用来记录项目、代码与技术实践。网站基于 [Valaxy](https://valaxy.site/) 和 [Theme Yun](https://valaxy.site/themes/yun/) 构建。
-
-## 项目
-
-### MeiCode
-
-MeiCode 是一个运行在终端里的命令行 AI 助手，支持文件与命令操作、Skill 扩展，以及多智能体团队编排。
-
-- [查看项目页](/projects/)
-- [查看 GitHub 仓库](https://github.com/wujizhesan/meicode)
-
-## 联系
-
-- GitHub：[wujizhesan](https://github.com/wujizhesan)
-
-## 参考与链接
-
-留沙碎念使用的主题、框架与设计参考
-
-<YunLinks :links="frontmatter.links" :random="frontmatter.random" errorImg="/yun.png" />
-
-## 归档
-
-
-
-## 我的项目
-
-秋叶白的开源项目与技术作品
-
-
-
-## 标签
-
-

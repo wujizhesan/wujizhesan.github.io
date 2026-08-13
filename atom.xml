@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wujizhesan.github.io/</id>
     <title>留沙碎念</title>
-    <updated>2026-08-13T10:49:40.720Z</updated>
+    <updated>2026-08-13T12:16:57.485Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>秋叶白</name>
@@ -15,6 +15,24 @@
     <logo>https://wujizhesan.github.io/yun.png</logo>
     <icon>https://wujizhesan.github.io/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2026 © 秋叶白</rights>
+    <entry>
+        <title type="html"><![CDATA[Agent 学习指南：从提示词到自主工作流]]></title>
+        <id>https://wujizhesan.github.io/posts/agent-learning-guide</id>
+        <link href="https://wujizhesan.github.io/posts/agent-learning-guide"/>
+        <updated>2026-08-13T11:20:00.000Z</updated>
+        <summary type="html"><![CDATA[从大模型、工具调用、记忆与规划出发，循序渐进理解 AI Agent，并完成第一个可验证的智能体工作流。]]></summary>
+        <content type="html"><![CDATA[<p>大语言模型擅长理解和生成内容，但真正的 Agent 会把“想法”变成“行动”：读取信息、拆分任务、调用工具、观察结果，再决定下一步。</p>
+<blockquote>
+<p>学习 Agent 的关键，不是记住更多框架，而是理解一个能</p>
+</blockquote>
+<br/><p>访问 <a href="https://wujizhesan.github.io/posts/agent-learning-guide" target="_blank">https://wujizhesan.github.io/posts/agent-learning-guide</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>秋叶白</name>
+            <email>i@valaxy.site</email>
+            <uri>https://github.com/wujizhesan</uri>
+        </author>
+        <published>2026-08-13T11:20:00.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[MeiCode：终端里的多智能体 AI 助手]]></title>
         <id>https://wujizhesan.github.io/posts/meicode</id>
