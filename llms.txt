@@ -15,5 +15,5 @@
 - [归档](https://wujizhesan.github.io/archives.md)
 - [参考与链接](https://wujizhesan.github.io/links.md): 留沙碎念使用的主题、框架与设计参考
 - [分类](https://wujizhesan.github.io/categories.md)
-- [标签](https://wujizhesan.github.io/tags.md)
 - [我的项目](https://wujizhesan.github.io/projects.md): 秋叶白的开源项目与技术作品
+- [标签](https://wujizhesan.github.io/tags.md)
