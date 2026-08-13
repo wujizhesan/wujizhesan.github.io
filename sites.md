@@ -50,12 +50,6 @@ codeLinks:
     desc: 公开仓库和项目更新入口。
     color: '#6e5494'
 communityLinks:
-  - url: /links/
-    avatar: /yun.svg
-    name: 友链与参考
-    blog: 站点伙伴
-    desc: 朋友、框架与主题参考站点。
-    color: '#F59E0B'
   - url: /sponsors/
     avatar: /yun.svg
     name: 赞助与支持

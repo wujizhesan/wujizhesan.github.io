@@ -1,0 +1,1 @@
+import{W as e}from"./theme.D6Qt4-2b.js";var t=e({defaults:{"@type":`ReadAction`},resolve(e,t){return e.target.includes(t.meta.url)||e.target.unshift(t.meta.url),e}});export{t as readActionResolver};
