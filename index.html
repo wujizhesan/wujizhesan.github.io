@@ -1,10 +1,141 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#0078E7"><meta name="author" content="秋叶白"><meta name="copyright" content="秋叶白"><meta name="description" content="秋叶白的个人博客"><title>留沙碎念</title><link rel="icon" type="image/svg+xml" href="/yun.svg"><link rel="mask-icon" href="/yun.svg" color="#0078E7"><link rel="canonical" href="https://wujizhesan.github.io/"><meta property="og:type" content="website"><meta property="og:title" content="留沙碎念"><meta property="og:url" content="https://wujizhesan.github.io/"><meta property="og:site_name" content="留沙碎念"><meta property="og:description" content="秋叶白的个人博客"><meta property="og:locale" content="zh_CN"><meta name="twitter:card" content="summary"><script>
-      // 暗色模式：auto / light / dark，记忆用户选择
-      (function () {
-        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        const setting = localStorage.getItem('theme') || 'auto';
-        if (setting === 'dark' || (prefersDark && setting !== 'light')) {
-          document.documentElement.setAttribute('data-theme', 'dark');
-        }
-      })();
-    </script><link rel="stylesheet" href="/_astro/Fireworks.D7O0ezzy.css"></head><body><header class="navbar"><div class="navbar-left"><a class="navbar-brand" href="/about/"><span class="navbar-avatar"><img src="/yun.png" width="32" height="32" alt="秋叶白"></span><span>秋叶白</span></a></div><nav class="navbar-right navbar-links" aria-label="主导航"><a class="nav-link" href="/">首页</a><a class="nav-link" href="/archives/">归档</a><a class="nav-link" href="/categories/">分类</a><a class="nav-link" href="/tags/">标签</a><a class="nav-link" href="/links/">友链</a><button class="nav-icon-btn" id="toggle-mode-btn" title="切换亮色模式" aria-label="切换亮色模式"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12 22a10 10 0 1 1 0-20 10 10 0 0 1 0 20Zm0-2a8 8 0 0 0 0-16v16Z"></path></svg></button></nav><button class="nav-icon-btn nav-hamburger" id="nav-hamburger" aria-label="菜单" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M3 5h18v2H3V5Zm0 6h18v2H3v-2Zm0 6h18v2H3v-2Z"></path></svg></button></header><div class="nav-menu-mobile" id="nav-menu-mobile"><a class="nav-link" href="/">首页</a><a class="nav-link" href="/archives/">归档</a><a class="nav-link" href="/categories/">分类</a><a class="nav-link" href="/tags/">标签</a><a class="nav-link" href="/links/">友链</a></div><script type="module">var e=document.getElementById(`nav-hamburger`),t=document.getElementById(`nav-menu-mobile`);e?.addEventListener(`click`,()=>{let n=t?.classList.toggle(`open`)??!1;e.setAttribute(`aria-expanded`,String(n))}),t?.querySelectorAll(`a`).forEach(e=>{e.addEventListener(`click`,()=>t.classList.remove(`open`))});var n=document.getElementById(`toggle-mode-btn`),r=document.documentElement,i=[`auto`,`light`,`dark`];n?.addEventListener(`click`,()=>{let e=localStorage.getItem(`theme`)||`auto`,t=i[(i.indexOf(e)+1)%i.length];localStorage.setItem(`theme`,t);let n=window.matchMedia(`(prefers-color-scheme: dark)`).matches;t===`dark`||t===`auto`&&n?r.setAttribute(`data-theme`,`dark`):t===`light`?r.setAttribute(`data-theme`,`light`):r.removeAttribute(`data-theme`)});</script><canvas class="fireworks" id="fireworks" aria-hidden="true"></canvas><script type="module">var e=document.getElementById(`fireworks`),t=e.getContext(`2d`),n=[`102, 167, 221`,`62, 131, 225`,`33, 78, 194`];function r(){e.width=window.innerWidth,e.height=window.innerHeight}r(),window.addEventListener(`resize`,r);var i=[],a=!1;function o(){t.clearRect(0,0,e.width,e.height);for(let e=i.length-1;e>=0;e--){let n=i[e];if(n.x+=n.vx,n.y+=n.vy,n.vy+=.04,n.life-=.012,n.life<=0){i.splice(e,1);continue}t.globalAlpha=Math.max(n.life,0),t.fillStyle=n.color,t.beginPath(),t.arc(n.x,n.y,n.size,0,Math.PI*2),t.fill()}t.globalAlpha=1,i.length>0?requestAnimationFrame(o):a=!1}function s(e,t){let r=n[Math.floor(Math.random()*n.length)];for(let n=0;n<40;n++){let a=Math.PI*2*n/40+Math.random()*.3,o=2+Math.random()*3.5;i.push({x:e,y:t,vx:Math.cos(a)*o,vy:Math.sin(a)*o,size:1.5+Math.random()*1.5,life:1,color:`rgba(${r}, 1)`})}a||(a=!0,requestAnimationFrame(o))}document.addEventListener(`click`,e=>{s(e.clientX,e.clientY)});</script><main class="main"><section class="hero"><h1 class="hero-title">秋叶之白，无寂乎哉</h1><p class="hero-desc">留沙碎念 · 秋叶白</p><a class="hero-go-down" href="#posts" aria-label="向下滚动"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M12 13.17 6.59 7.76 5.17 9.17 12 16l6.83-6.83-1.42-1.41L12 13.17Z"></path></svg></a></section><div class="say" id="say"><span id="say-content">秋叶之白，无寂乎哉</span></div><section class="content" id="posts"><article class="post-card"><h2 class="post-title"><a href="/2023/04/14/hello-world/">Hello World</a></h2><div class="post-meta"><time datetime="2023-04-14T12:30:22.000Z">2023/04/14</time></div></article></section><footer class="footer"><div>© 2019 – 2026<span class="heart">☁</span><span>秋叶白</span></div><div>由 <a href="https://astro.build" target="_blank" rel="noopener">Astro</a> 驱动</div></footer><a class="back-to-top" id="back-to-top" href="#" aria-label="返回顶部"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="m12 8 6.83 6.83-1.41 1.41L12 10.83l-5.42 5.41-1.41-1.41L12 8Z"></path></svg></a><script type="module">var e=document.getElementById(`back-to-top`);window.addEventListener(`scroll`,()=>{e.classList.toggle(`visible`,window.scrollY>300)}),e.addEventListener(`click`,e=>{e.preventDefault(),window.scrollTo({top:0,behavior:`smooth`})});</script></main></body></html>
+<!DOCTYPE html>
+<html  lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/yun.svg">
+    <script>
+    ;(function () {
+      const prefersDark =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
+      if (setting === 'dark' || (prefersDark && setting !== 'light'))
+        document.documentElement.classList.toggle('dark', true)
+    })()
+    </script>
+  <style type="text/css">
+    :root { color-scheme: light dark; --va-c-bg: #fff; }
+    html.dark { --va-c-bg: #000; }
+    html { background-color: var(--va-c-bg); }
+  </style><style id="valaxy-fouc">body{opacity:0!important}</style><style>body{transition:opacity .15s ease}</style><noscript><style>body{opacity:1!important}</style></noscript><script>(function foucGuardScript(maxDuration) {
+  var done = 0;
+  function reveal() {
+    if (done) return;
+    done = 1;
+    var s = document.getElementById("valaxy-fouc");
+    if (s) s.remove();
+  }
+  function check() {
+    var links = document.querySelectorAll('link[rel="stylesheet"]');
+    for (var i = 0; i < links.length; i++) {
+      if (!links[i].sheet) return;
+    }
+    reveal();
+  }
+  new MutationObserver(check).observe(document.head, {
+    childList: true,
+    attributes: true,
+    attributeFilter: ["media", "rel"]
+  });
+  addEventListener("load", reveal);
+  if (maxDuration)
+    setTimeout(reveal, maxDuration);
+})(5000)</script>
+    <script>
+    const locale = localStorage.getItem('valaxy-locale') || 'zh-CN';
+    document.documentElement.setAttribute('lang', locale);
+    </script>
+    
+  <script type="module" crossorigin src="/assets/index.D9wNIiyr.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime.hePW80VL.js">
+  <link rel="modulepreload" crossorigin href="/assets/framework.CSzCw9LZ.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-i18n.DPiClx16.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-router.4BejMmlS.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/dayjs.jVvjK6ua.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/pinia.BB0vZneo.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/@vueuse/motion.ZsolTB8c.js">
+  <link rel="modulepreload" crossorigin href="/assets/theme.C5DslJP_.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/nprogress.Dew4DlVv.js">
+  <link rel="stylesheet" crossorigin href="/assets/style.ButPljTK.css">
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.DMm9YOAa.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.BEiXGLvX.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.CTRA-rTL.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.CL6g_b3V.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.BsDP51OF.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.CTYiF6lA.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.Dxdc4cR9.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Cx986IdX.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Jm3AIy58.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.SpSLRI95.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.NWA7e6Wa.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.BMLOBm91.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.B22Nviop.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.Dr94JaBh.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.iY-2wyZ7.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.t53AETM-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.DA0__PXp.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.D1sUS0GD.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.DbIhKOiC.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.C3H0VqGB.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.DN2j7dab.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.CS6fqUqJ.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D3wIWfF6.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D5yQViql.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.mCD8mA8B.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.C195tn64.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.Dy4dx90m.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.oD1tc_U0.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size3-Regular.CTq5MqoE.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.Dl5lxZxV.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.BF-4gkZK.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.CO6r4hn1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.C0xS9mPB.woff" as="font" type="font/woff" crossorigin>
+<link rel="modulepreload" crossorigin href="/assets/theme.C5DslJP_.js">
+<link rel="preload" href="/assets/none.DLM1AMsD.jpg" as="image">
+<link rel="preload" href="/assets/bg-img.kXdNMxcF.jpg" as="image">
+<link rel="preload" href="/assets/sidebar-bg-img.mp54gEws.webp" as="image">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>留沙碎念</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&display=swap">
+<meta name="description" content="秋叶白的个人博客">
+<meta property="og:description" content="秋叶白的个人博客">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:locale:alternate" content>
+<meta property="og:site_name" content="留沙碎念">
+<meta property="og:title" content="留沙碎念">
+<meta property="og:image" content="/yun.svg">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://wujizhesan.github.io/">
+<link rel="icon" href="/yun.svg" type="image/svg+xml">
+<meta name="generator" content="Valaxy 1.0.0-rc.5">
+<meta name="theme-color" content="#fff">
+<meta name="msapplication-TileColor" content="#fff">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+  <div id="app"><!--[--><!--[--><!--[--><!--v-if--><!--v-if--><div class="yun-page-header-gradient"></div><div class="yun-nav-menu z-$yun-z-nav-menu fixed bg-transparent" data-v-e1a07c12><!--  --><div class="inline-flex justify-start items-center flex-1" data-v-e1a07c12><button type="button" class="vt-hamburger menu-btn sidebar-toggle leading-4 size-12 lg:hidden!" aria-label="mobile navigation" aria-expanded="false" inline-flex cursor="pointer" hover="bg-white/80 dark:bg-black/80" z="$yun-z-menu-btn" data-v-e1a07c12><span class="vt-hamburger-container"><span class="vt-hamburger-top"></span><span class="vt-hamburger-middle"></span><span class="vt-hamburger-bottom"></span></span></button><a aria-current="page" href="/" class="router-link-active router-link-exact-active va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 data-v-e1a07c12><!--[--><div class="size-6 i-ri-home-4-line"></div><!--]--></a><div class="hidden lg:contents" data-v-e1a07c12><!--[--><a aria-current="page" href="/" class="router-link-active router-link-exact-active va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="menu.home" data-v-e1a07c12><!--[--><div class="size-6 i-ri-home-4-line"></div><!--]--></a><a href="/posts/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="menu.posts" data-v-e1a07c12><!--[--><div class="size-6 i-ri-article-line"></div><!--]--></a><a href="/archives/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="menu.archives" data-v-e1a07c12><!--[--><div class="size-6 i-ri-archive-line"></div><!--]--></a><a href="/categories/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="menu.categories" data-v-e1a07c12><!--[--><div class="size-6 i-ri-folder-2-line"></div><!--]--></a><a href="/tags/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="menu.tags" data-v-e1a07c12><!--[--><div class="size-6 i-ri-price-tag-3-line"></div><!--]--></a><a href="/links/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="menu.links" data-v-e1a07c12><!--[--><div class="size-6 i-ri-links-line"></div><!--]--></a><!--]--></div></div><div class="flex flex-1 flex-center" data-v-e1a07c12><div flex="~ center col h-full" class="nav-menu-title-container cursor-pointer" data-v-e1a07c12><!----><!----></div></div><div class="inline-flex-center justify-end items-center flex-1" data-v-e1a07c12><!-- <template v-if="!app.isMobile && themeConfig.nav">
+          <template v-for="item in themeConfig.nav" :key="item.text">
+            <AppLink
+              v-if="'link' in item"
+              :to="item.link"
+              class="menu-btn inline-flex-center p-2 transition text-$va-c-text"
+              inline-flex cursor="pointer"
+              hover="bg-white/80 dark:bg-black/80"
+              z="$yun-z-menu-btn"
+            >
+              {{ item.text }}
+            </AppLink>
+            <template v-else-if="'items' in item" />
+          </template>
+        </template> --><!----><button class="yun-icon-btn yun-toggle-dark rounded-none!" title="切换深色模式" data-v-e1a07c12><div i="ri-sun-line dark:ri-moon-line"></div></button><!--[--><button class="yun-search-btn yun-icon-btn popup-trigger rounded-none! size-12 inline-flex justify-center items-center" text="xl $va-c-text" title="搜索"><div i-ri-search-line op-80 hover="op-100"></div></button><!----><!--]--></div></div><!----><!--v-if--><!----><!--[--><div class="yun-bg"></div><!--]--><!----><a href="#" class="back-to-top yun-icon-btn bg-$va-c-bg-soft shadow-md"><div class="size-8" i-ri-arrow-up-s-line></div><svg class="progress-circle-container" viewBox="0 0 100 100"><circle stroke-dasharray="301.59289474462014 301.59289474462014" stroke-dashoffset="301.59289474462014" stroke="currentColor" stroke-width="2" stroke-linecap="round" class="progress-circle" cx="50" cy="50" r="48" fill="none"></circle></svg></a><!--]--><!--[--><!--]--><!----><!--]--><div class="min-h-screen flex flex-col"><div class="yun-layout-wrapper__content"><!--[--><div class="w-full flex flex-col items-center pb-4"><!--[--><!--[--><div class="w-full"><!--[--><div id="yun-banner-placeholder" class="w-full h-[var(--banner-container-height,100vh)]"></div><!--]--><!----><div class="say" w="full"><!----><!----><!----></div></div><div class="grid-bg absolute left-0 top-0 right-0 bottom-0"><!-- <YunAEFrame /> --><!-- <YunAERect /> --></div><!--]--><!--]--><div class="mt-4"></div><!--[--><!--]--><!--[--><div w="full"><div flex="~ col" class="yun-post-list gap-4 items-center" w="full" p="x-4 lt-sm:0"><!----><!--[--><!--[--><div class="post-card-link flex-center w-full"><div class="yun-card flex-center rounded-2 overflow-hidden post-card-wrapper w-full hover:scale-102 hover:z-1 post-card" flex="col" min-h="100px" bg="$va-c-bg-light" mx="4" overflow="hidden"><!----><!----><div class="yun-card-body relative" w="full" flex="~ col" items="center"><!--[--><!-- Overlay link covers the entire card --><a href="/posts/hello-world" class="va-link post-card-overlay" aria-label="Hello World" tabindex="0"><!--[--><!--]--></a><div class="flex flex-1 of-hidden justify-start items-start post-card-info" w="full"><!----><div class="post-card-body flex flex-col items-center relative" w="full"><a href="/posts/hello-world" class="va-link post-title-link bg-gradient-to-r gradient-text from-$va-c-primary to-$va-c-primary-lighter" m="t-3" tabindex="-1"><!--[--><div class="post-card-title flex-center title text-2xl" text="center" font="serif black"><!--v-if--><span>Hello World</span></div><!--]--></a><!--[--><!----><div flex="~ center" text="sm" class="post-meta-col post-meta gap-4"><div class="post-time flex items-center gap-4"><span class="posted-time inline-flex-center gap-1" title="发表于2023-04-14 20:30:22"><div class="inline-block" i-ri-calendar-line></div><time class="op-80">2023-04-14</time></span><span class="edited-time inline-flex-center gap-1" title="更新于2026-08-13 16:30:00"><div i-ri-calendar-2-line></div><time class="op-80">2026-08-13</time></span></div><!--[--><!--]--><div class="inline-flex-center gap-4"><div class="inline-flex-center post-counter gap-4"><span class="word-count inline-flex-center gap-1" title="本文字数"><div class="inline-block" i-ri-file-word-line></div><span class="op-80">134</span></span><span class="reading-time inline-flex-center gap-1" title="阅读时长"><div i-ri-timer-line></div><time class="op-80">2m</time></span></div><!----><!----></div></div><!--]--><div class="post-card-excerpt" flex="~ grow col" w="full" justify="center" items="center"><!----><div m="b-5"></div></div><!----><!----></div></div><!-- always show --><div w="full" class="yun-card-actions flex items-center justify-between" p="x-4 y-2" text="sm"><div class="post-categories inline-flex gap-2" flex="wrap 1" items="center"><a href="/categories" class="transition post-category inline-flex-center text-xs border-$va-c-divider" px-2 h="7" border rounded-full hover="bg-blue-500 text-white"><div m="x-1" inline-flex i-ri-folder-2-line></div><span></span></a><!----></div><!----></div><!--]--></div><!----></div></div><!--]--><!--]--></div><!----></div><!--]--></div><!--]--></div><footer flex="~ col" class="relative yun-footer va-footer px-4 py-4 pt-0 text-$va-c-text-light w-full mt-14" bg="white dark:$va-c-bg-soft" text="center sm"><div class="yun-cloud absolute top--10 left-0 right-0"><svg class="waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" fill="var(--yun-c-cloud)"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"></use><use xlink:href="#gentle-wave" x="48" y="3"></use><use xlink:href="#gentle-wave" x="48" y="5"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><!----><div class="copyright flex justify-center items-center gap-2" p="1"><span> © <!--[-->2019 - <!--]--> 2026</span><a class="animate-pulse inline-flex" href="/" target="_blank" title="留沙碎念"><div class="i-ri-cloud-line"></div></a><span>秋叶白</span></div><div class="powered" m="2"><span>由 <a href="https://github.com/YunYouJun/valaxy.git" target="_blank" rel="noopener">Valaxy</a> <span class="op-60">v1.0.0-rc.5</span> 驱动</span><span mx-1>|</span><span><span>主题</span><span mx-1>-</span><a href="https://github.com/YunYouJun/valaxy.git" title="valaxy-theme-yun" target="_blank">Yun</a><span class="ml-1 op-60">v1.0.0-rc.5</span></span></div><!--[--><!--]--><div class="yun-footer-gradient"></div></footer></div><!--]--></div><script>window.__INITIAL_STATE__='{"pinia":{"yun-app":{"bannerAnimationDone":false},"app":{"showLoading":true},"routerStore":{}}}'</script><script type="application/ld+json" data-hid="schema-org-graph">{"@context":"https://schema.org","@graph":[{"@id":"https://wujizhesan.github.io/#identity","@type":"Person","name":"秋叶白","url":"https://wujizhesan.github.io/","image":{"@id":"https://wujizhesan.github.io/#/schema/image/1"},"sameAs":["https://github.com/wujizhesan","/atom.xml"]},{"@id":"https://wujizhesan.github.io/#website","@type":"WebSite","inLanguage":"zh-CN","url":"https://wujizhesan.github.io/","publisher":{"@id":"https://wujizhesan.github.io/#identity"}},{"@id":"https://wujizhesan.github.io/#webpage","@type":"WebPage","description":"秋叶白的个人博客","url":"https://wujizhesan.github.io/","about":{"@id":"https://wujizhesan.github.io/#identity"},"isPartOf":{"@id":"https://wujizhesan.github.io/#website"},"potentialAction":[{"@type":"ReadAction","target":["https://wujizhesan.github.io/"]}]},{"@id":"https://wujizhesan.github.io/#/schema/image/1","@type":"ImageObject","contentUrl":"https://wujizhesan.github.io/yun.png","inLanguage":"zh-CN","url":"https://wujizhesan.github.io/yun.png"}]}</script>
+  
+</body>
+</html>

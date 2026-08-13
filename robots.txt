@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://wujizhesan.github.io/sitemap-index.xml
+Sitemap: https://wujizhesan.github.io/sitemap.xml
