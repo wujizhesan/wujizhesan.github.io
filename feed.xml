@@ -4,7 +4,7 @@
         <title>留沙碎念</title>
         <link>https://wujizhesan.github.io/</link>
         <description>秋叶白的个人博客</description>
-        <lastBuildDate>Thu, 13 Aug 2026 12:36:52 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 13 Aug 2026 12:50:26 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -15,15 +15,12 @@
         <copyright>CC BY-NC-SA 4.0 2026 © 秋叶白</copyright>
         <atom:link href="https://wujizhesan.github.io/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[Agent 学习指南：从提示词到自主工作流]]></title>
+            <title><![CDATA[我是怎么做 MeiCode 的：一个终端 AI Agent 的设计与实现]]></title>
             <link>https://wujizhesan.github.io/posts/agent-learning-guide</link>
             <guid isPermaLink="false">https://wujizhesan.github.io/posts/agent-learning-guide</guid>
             <pubDate>Thu, 13 Aug 2026 11:20:00 GMT</pubDate>
-            <description><![CDATA[系统学习 AI Agent 的核心架构、工具调用、记忆、规划、多智能体、安全、评估与 TypeScript 实战。]]></description>
-            <content:encoded><![CDATA[<p>大语言模型擅长理解和生成内容，但真正的 Agent 会把“想法”变成“行动”：读取信息、拆分任务、调用工具、观察结果，再根据真实反馈决定下一步。</p>
-<blockquote>
-<p>学习 Agent 的关键，不是背会某个框架，而</p>
-</blockquote>
+            <description><![CDATA[结合 MeiCode 的真实实现，复盘一个终端 AI Agent 从工具调用、上下文管理到多智能体协作的设计过程。]]></description>
+            <content:encoded><![CDATA[<p>准备整理这个项目时，我重新翻了一遍 MeiCode 的代码。最开始做它，我想解决的问题其实很简单：能不能让模型不只是在对话框里给建议，而是进入终端，真正读取项目、修改文件、运行命令，并把结果交付出来</p>
 <br/><p>访问 <a href="https://wujizhesan.github.io/posts/agent-learning-guide" target="_blank">https://wujizhesan.github.io/posts/agent-learning-guide</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (秋叶白)</author>
         </item>
