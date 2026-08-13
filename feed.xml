@@ -4,7 +4,7 @@
         <title>留沙碎念</title>
         <link>https://wujizhesan.github.io/</link>
         <description>秋叶白的个人博客</description>
-        <lastBuildDate>Thu, 13 Aug 2026 09:49:28 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 13 Aug 2026 10:00:41 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -24,15 +24,6 @@
 <h2>核心能力</h2>
 <h3>Agent</h3>
 <br/><p>访问 <a href="https://wujizhesan.github.io/posts/meicode" target="_blank">https://wujizhesan.github.io/posts/meicode</a> 阅读全文。</p>]]></content:encoded>
-            <author>i@valaxy.site (秋叶白)</author>
-        </item>
-        <item>
-            <title><![CDATA[Hello World]]></title>
-            <link>https://wujizhesan.github.io/posts/hello-world</link>
-            <guid isPermaLink="false">https://wujizhesan.github.io/posts/hello-world</guid>
-            <pubDate>Fri, 14 Apr 2023 12:30:22 GMT</pubDate>
-            <content:encoded><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check [documentation](<a href="https://hex">https://hex</a></p>
-<br/><p>访问 <a href="https://wujizhesan.github.io/posts/hello-world" target="_blank">https://wujizhesan.github.io/posts/hello-world</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (秋叶白)</author>
         </item>
     </channel>

@@ -22,18 +22,6 @@
                 "name": "秋叶白",
                 "url": "https://github.com/wujizhesan"
             }
-        },
-        {
-            "id": "https://wujizhesan.github.io/posts/hello-world",
-            "content_html": "<p>Welcome to <a href=\"https://hexo.io/\">Hexo</a>! This is your very first post. Check [documentation](<a href=\"https://hex\">https://hex</a></p>\n<br/><p>访问 <a href=\"https://wujizhesan.github.io/posts/hello-world\" target=\"_blank\">https://wujizhesan.github.io/posts/hello-world</a> 阅读全文。</p>",
-            "url": "https://wujizhesan.github.io/posts/hello-world",
-            "title": "Hello World",
-            "date_modified": "2023-04-14T12:30:22.000Z",
-            "date_published": "2023-04-14T12:30:22.000Z",
-            "author": {
-                "name": "秋叶白",
-                "url": "https://github.com/wujizhesan"
-            }
         }
     ]
 }

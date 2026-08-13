@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wujizhesan.github.io/</id>
     <title>留沙碎念</title>
-    <updated>2026-08-13T09:49:28.583Z</updated>
+    <updated>2026-08-13T10:00:41.324Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>秋叶白</name>
@@ -31,19 +31,5 @@
             <uri>https://github.com/wujizhesan</uri>
         </author>
         <published>2026-08-13T09:30:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello World]]></title>
-        <id>https://wujizhesan.github.io/posts/hello-world</id>
-        <link href="https://wujizhesan.github.io/posts/hello-world"/>
-        <updated>2023-04-14T12:30:22.000Z</updated>
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check [documentation](<a href="https://hex">https://hex</a></p>
-<br/><p>访问 <a href="https://wujizhesan.github.io/posts/hello-world" target="_blank">https://wujizhesan.github.io/posts/hello-world</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>秋叶白</name>
-            <email>i@valaxy.site</email>
-            <uri>https://github.com/wujizhesan</uri>
-        </author>
-        <published>2023-04-14T12:30:22.000Z</published>
     </entry>
 </feed>
