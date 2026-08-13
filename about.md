@@ -62,3 +62,10 @@ MeiCode 是一个运行在终端里的命令行 AI 助手，支持文件与命�
 
 - GitHub：[wujizhesan](https://github.com/wujizhesan)
 - 网易云音乐：[个人主页](https://y.music.163.com/m/user?id=1986115233)
+
+## 音乐
+
+除了写代码，我也以网易音乐人「秋叶白」的名字制作并发布 Beat。
+
+- [试听我的音乐作品](/music/)
+- [查看网易云音乐人主页](https://music.163.com/#/artist?id=58841752)

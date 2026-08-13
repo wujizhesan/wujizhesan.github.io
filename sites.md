@@ -30,6 +30,12 @@ siteLinks:
     blog: 秋叶白
     desc: 当前方向、项目、目标与公开联系方式。
     color: '#8B5CF6'
+  - url: /music/
+    avatar: /yun.svg
+    name: 音乐作品
+    blog: 秋叶白
+    desc: 我制作并发布在网易云音乐的 Beat 作品。
+    color: '#C10D0C'
 codeLinks:
   - url: https://github.com/wujizhesan/meicode
     avatar: https://github.com/wujizhesan.png?size=256
@@ -77,5 +83,4 @@ random: false
 
 - 学习笔记与短记录入口
 - 更多项目演示和项目文档
-- 经授权公开的社交平台与联系方式
 - 更完整的站点历史
