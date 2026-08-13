@@ -61,4 +61,4 @@ MeiCode 是一个运行在终端里的命令行 AI 助手，支持文件与命�
 ## 联系
 
 - GitHub：[wujizhesan](https://github.com/wujizhesan)
-- 其他公开联系方式：待补充
+- 网易云音乐：[个人主页](https://y.music.163.com/m/user?id=1986115233)
