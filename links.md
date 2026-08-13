@@ -1,6 +1,6 @@
 ---
-title: 参考与链接
-description: 留沙碎念使用的主题、框架与设计参考
+title: 友链与参考
+description: 朋友们的站点，以及留沙碎念使用的主题、框架与设计参考
 keywords:
   - Valaxy
   - Theme Yun
@@ -22,3 +22,16 @@ random: false
 ---
 
 <YunLinks :links="frontmatter.links" :random="frontmatter.random" errorImg="/yun.png" />
+
+## 友链说明
+
+目前先收录本站使用的框架、主题与设计参考站点，个人友链将在后续逐步补充。
+
+准备交换友链时，可以提供以下信息：
+
+- 站点名称
+- 站点地址
+- 头像或图标地址
+- 一句话介绍
+
+> 只展示公开并获得授权的信息。

@@ -11,9 +11,15 @@
 
 ## Pages
 
-- [关于](https://wujizhesan.github.io/about.md): 关于秋叶白与留沙碎念
 - [归档](https://wujizhesan.github.io/archives.md)
-- [参考与链接](https://wujizhesan.github.io/links.md): 留沙碎念使用的主题、框架与设计参考
 - [分类](https://wujizhesan.github.io/categories.md)
+- [友链与参考](https://wujizhesan.github.io/links.md): 朋友们的站点，以及留沙碎念使用的主题、框架与设计参考
+- [关于](https://wujizhesan.github.io/about.md): 关于秋叶白与留沙碎念
+- [赞助与支持](https://wujizhesan.github.io/sponsors.md): 支持留沙碎念与 MeiCode 的持续维护
 - [我的项目](https://wujizhesan.github.io/projects.md): 秋叶白的开源项目与技术作品
+- [站点地图](https://wujizhesan.github.io/sites.md): 留沙碎念的内容、项目与公开入口
 - [标签](https://wujizhesan.github.io/tags.md)
+
+## About
+
+- [关于本站](https://wujizhesan.github.io/about/site.md): 留沙碎念的定位、技术与更新计划

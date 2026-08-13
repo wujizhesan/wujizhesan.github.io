@@ -1747,6 +1747,33 @@ cp config.example.yaml ~/.mewcode/config.yaml
 
 **[打开 wujizhesan/meicode](https://github.com/wujizhesan/meicode)**
 
+## 归档
+
+
+
+## 分类
+
+
+
+## 友链与参考
+
+朋友们的站点，以及留沙碎念使用的主题、框架与设计参考
+
+<YunLinks :links="frontmatter.links" :random="frontmatter.random" errorImg="/yun.png" />
+
+## 友链说明
+
+目前先收录本站使用的框架、主题与设计参考站点，个人友链将在后续逐步补充。
+
+准备交换友链时，可以提供以下信息：
+
+- 站点名称
+- 站点地址
+- 头像或图标地址
+- 一句话介绍
+
+> 只展示公开并获得授权的信息。
+
 ## 关于
 
 关于秋叶白与留沙碎念
@@ -1755,7 +1782,26 @@ cp config.example.yaml ~/.mewcode/config.yaml
 
 你好，我是秋叶白。
 
-这里是「留沙碎念」，用来记录项目、代码与技术实践。网站基于 [Valaxy](https://valaxy.site/) 和 [Theme Yun](https://valaxy.site/themes/yun/) 构建。
+这里是「留沙碎念」，用来记录项目、代码、AI Agent 学习与真实的工程实践。
+
+我更愿意把这里当作一份持续生长的公开记录：做过什么、为什么这样做、遇到了哪些问题，以及下一次可以怎样做得更好。
+
+> 见字如面，很高兴能在这里与你相遇。
+
+## 现在在做什么
+
+- 持续完善终端多智能体 AI 助手 [MeiCode](https://github.com/wujizhesan/meicode)
+- 学习并整理 AI Agent 的工具、记忆、规划、多智能体与评估方法
+- 维护「留沙碎念」，把项目经验沉淀为可以复用的文章
+
+## 关注的方向
+
+- TypeScript、Node.js 与命令行工具
+- AI Agent、工具调用与多智能体协作
+- 自动化工作流与工程效率
+- 开源项目的设计、实现和维护
+
+> 更完整的个人经历、技术栈与学习路线将在后续补充。
 
 ## 项目
 
@@ -1765,24 +1811,63 @@ MeiCode 是一个运行在终端里的命令行 AI 助手，支持文件与命�
 
 - [查看项目页](/projects/)
 - [查看 GitHub 仓库](https://github.com/wujizhesan/meicode)
+- [阅读 Agent 学习文章](/posts/agent-learning-guide)
+
+## 想完成的事情
+
+- [x] 做出可以实际使用的多智能体终端助手
+- [x] 建立自己的技术博客并持续发布内容
+- [ ] 完善 MeiCode 的文档、示例与工程说明
+- [ ] 整理更多真实项目和技术复盘
+- [ ] 补充完整的个人经历与公开简历
+
+## 关于本站
+
+网站基于 [Valaxy](https://valaxy.site/) 和 [Theme Yun](https://valaxy.site/themes/yun/) 构建，视觉与页面组织参考了 [云游君的小站](https://www.yunyoujun.cn/)。
+
+- [查看关于本站](/about/site/)
+- [浏览站点地图](/sites/)
+- [订阅 RSS](/atom.xml)
 
 ## 联系
 
 - GitHub：[wujizhesan](https://github.com/wujizhesan)
+- 其他公开联系方式：待补充
 
-## 归档
+## 赞助与支持
 
+支持留沙碎念与 MeiCode 的持续维护
 
+如果「留沙碎念」的文章或 MeiCode 对你有帮助，感谢你愿意支持它们继续生长。
 
-## 参考与链接
+## 现在可以怎样支持
 
-留沙碎念使用的主题、框架与设计参考
+- 为 [MeiCode](https://github.com/wujizhesan/meicode) 点一个 Star
+- 提交 Issue，反馈真实问题或使用体验
+- 把有帮助的文章分享给需要的人
+- 提供改进建议或参与代码贡献
 
-<YunLinks :links="frontmatter.links" :random="frontmatter.random" errorImg="/yun.png" />
+## 赞助方式
 
-## 分类
+> 付款渠道与展示规则正在整理，确认后会补充在这里。
 
+在正式公开收款方式前，不会在页面中放置虚假的二维码或付款入口。
 
+## 赞助者名单
+
+目前暂无公开名单。收到支持并获得展示授权后，会在这里记录昵称、链接与支持时间。
+
+## 资金用途
+
+未来收到的赞助将优先用于：
+
+- 域名、构建与网站维护
+- MeiCode 的开发、测试与文档
+- 技术学习、实验和公开内容整理
+
+## 隐私说明
+
+赞助者信息默认不公开；只有得到明确授权后，才会展示昵称、头像或个人链接。
 
 ## 我的项目
 
@@ -1790,6 +1875,65 @@ MeiCode 是一个运行在终端里的命令行 AI 助手，支持文件与命�
 
 
 
+## 站点地图
+
+留沙碎念的内容、项目与公开入口
+
+散落在不同页面里的文章、项目与公开入口，都从这里出发。
+
+## 博客
+
+<YunLinks :links="frontmatter.siteLinks" :random="frontmatter.random" errorImg="/yun.png" />
+
+## 项目与代码
+
+<YunLinks :links="frontmatter.codeLinks" :random="frontmatter.random" errorImg="/yun.png" />
+
+## 交流与支持
+
+<YunLinks :links="frontmatter.communityLinks" :random="frontmatter.random" errorImg="/yun.png" />
+
+## 以后会加入
+
+- 学习笔记与短记录入口
+- 更多项目演示和项目文档
+- 经授权公开的社交平台与联系方式
+- 更完整的站点历史
+
 ## 标签
 
 
+
+## 关于本站
+
+留沙碎念的定位、技术与更新计划
+
+## 留沙碎念
+
+「留沙碎念」是秋叶白的个人博客，主要记录项目、代码、AI Agent 学习与工程实践。
+
+这里不追求一次写完，而是保留能够持续修订和补充的内容。项目发生变化时，文章也会随之更新。
+
+## 技术
+
+- 博客框架：[Valaxy](https://valaxy.site/)
+- 主题：[Theme Yun](https://valaxy.site/themes/yun/)
+- 托管：[GitHub Pages](https://pages.github.com/)
+- 设计参考：[云游君的小站](https://www.yunyoujun.cn/)
+
+## 内容结构
+
+- 文章：完整的学习记录与技术实践
+- 项目：公开作品、实验仓库与后续计划
+- 站点地图：所有公开入口的统一索引
+- 友链：朋友、框架与主题参考
+- 赞助：支持方式与经授权公开的名单
+
+## 更新计划
+
+- [x] 完成主题迁移与基础页面
+- [x] 发布 MeiCode 与 AI Agent 学习内容
+- [x] 增加站点地图和赞助页
+- [ ] 补充个人经历与完整技术栈
+- [ ] 整理更多项目演示和项目复盘
+- [ ] 增加经授权公开的友链与赞助者名单
