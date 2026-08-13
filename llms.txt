@@ -1,0 +1,19 @@
+# 留沙碎念
+
+> 秋叶白的个人博客
+>
+> 留沙碎念：秋叶白的个人博客，记录项目与技术实践。
+
+## Posts
+
+- [MeiCode：终端里的多智能体 AI 助手](https://wujizhesan.github.io/posts/meicode.md): 介绍 MeiCode 的核心能力、技术栈与快速开始方式。
+- [Hello World](https://wujizhesan.github.io/posts/hello-world.md)
+
+## Pages
+
+- [归档](https://wujizhesan.github.io/archives.md)
+- [关于](https://wujizhesan.github.io/about.md): 关于秋叶白与留沙碎念
+- [分类](https://wujizhesan.github.io/categories.md)
+- [参考与链接](https://wujizhesan.github.io/links.md): 留沙碎念使用的主题、框架与设计参考
+- [我的项目](https://wujizhesan.github.io/projects.md)
+- [标签](https://wujizhesan.github.io/tags.md)

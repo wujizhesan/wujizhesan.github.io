@@ -1,0 +1,150 @@
+# 留沙碎念
+
+> 秋叶白的个人博客
+>
+> 留沙碎念：秋叶白的个人博客，记录项目与技术实践。
+
+## MeiCode：终端里的多智能体 AI 助手
+
+- **Date**: 2026-08-13
+- **Categories**: 项目
+- **Tags**: MeiCode, TypeScript, AI, CLI
+
+介绍 MeiCode 的核心能力、技术栈与快速开始方式。
+
+MeiCode 是一个运行在终端里的命令行 AI 助手。它可以直接操作文件系统、执行命令、搜索代码，通过 Skill 系统扩展能力，并内置多智能体团队编排。
+
+## 核心能力
+
+### Agent 主循环
+
+- 支持模型请求、工具执行、结果回流和流式输出
+- 支持中断取消、上下文压缩和会话恢复
+- 检测重复工具调用，降低死循环风险
+
+### 多智能体团队
+
+- 主会话可以派生专职成员并行处理任务
+- 每个成员拥有独立上下文
+- 使用 Git worktree 隔离文件修改
+- 通过邮箱和任务协议协作
+
+### Workflow 与 Skill
+
+- 使用声明式 Workflow 拆分复杂任务
+- 支持项目级和用户级 Skill
+- 提供权限模式、路径围栏、危险命令拦截和快照回滚
+
+## 技术栈
+
+MeiCode 使用 TypeScript、ESM 和 Node.js 构建，终端界面使用 Ink。
+
+## 快速开始
+
+\`\`\`bash
+npm install
+npm start
+\`\`\`
+
+无人值守运行：
+
+\`\`\`bash
+npm start -- --run "任务描述"
+\`\`\`
+
+运行测试：
+
+\`\`\`bash
+npm test
+\`\`\`
+
+## 项目地址
+
+[在 GitHub 查看 MeiCode](https://github.com/wujizhesan/meicode)
+
+## Hello World
+
+- **Date**: 2023-04-14
+- **Categories**: 随笔
+- **Tags**: Hello World
+
+Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+
+## Quick Start
+
+### Create a new post
+
+```bash
+$ hexo new "My New Post"
+```
+
+More info: [Writing](https://hexo.io/docs/writing.html)
+
+### Run server
+
+```bash
+$ hexo server
+```
+
+More info: [Server](https://hexo.io/docs/server.html)
+
+### Generate static files
+
+```bash
+$ hexo generate
+```
+
+More info: [Generating](https://hexo.io/docs/generating.html)
+
+### Deploy to remote sites
+
+```bash
+$ hexo deploy
+```
+
+More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+
+## 归档
+
+
+
+## 关于
+
+关于秋叶白与留沙碎念
+
+## 秋叶白
+
+你好，我是秋叶白。
+
+这里是「留沙碎念」，用来记录项目、代码与技术实践。网站基于 [Valaxy](https://valaxy.site/) 和 [Theme Yun](https://valaxy.site/themes/yun/) 构建。
+
+## 项目
+
+### MeiCode
+
+MeiCode 是一个运行在终端里的命令行 AI 助手，支持文件与命令操作、Skill 扩展，以及多智能体团队编排。
+
+- [查看项目页](/projects/)
+- [查看 GitHub 仓库](https://github.com/wujizhesan/meicode)
+
+## 联系
+
+- GitHub：[wujizhesan](https://github.com/wujizhesan)
+
+## 分类
+
+
+
+## 参考与链接
+
+留沙碎念使用的主题、框架与设计参考
+
+<YunLinks :links="frontmatter.links" :random="frontmatter.random" errorImg="/yun.png" />
+
+## 我的项目
+
+
+
+## 标签
+
+

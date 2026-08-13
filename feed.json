@@ -11,6 +11,19 @@
     },
     "items": [
         {
+            "id": "https://wujizhesan.github.io/posts/meicode",
+            "content_html": "<p>MeiCode 是一个运行在终端里的命令行 AI 助手。它可以直接操作文件系统、执行命令、搜索代码，通过 Skill 系统扩展能力，并内置多智能体团队编排。</p>\n<h2>核心能力</h2>\n<h3>Agent</h3>\n<br/><p>访问 <a href=\"https://wujizhesan.github.io/posts/meicode\" target=\"_blank\">https://wujizhesan.github.io/posts/meicode</a> 阅读全文。</p>",
+            "url": "https://wujizhesan.github.io/posts/meicode",
+            "title": "MeiCode：终端里的多智能体 AI 助手",
+            "summary": "介绍 MeiCode 的核心能力、技术栈与快速开始方式。",
+            "date_modified": "2026-08-13T09:30:00.000Z",
+            "date_published": "2026-08-13T09:30:00.000Z",
+            "author": {
+                "name": "秋叶白",
+                "url": "https://github.com/wujizhesan"
+            }
+        },
+        {
             "id": "https://wujizhesan.github.io/posts/hello-world",
             "content_html": "<p>Welcome to <a href=\"https://hexo.io/\">Hexo</a>! This is your very first post. Check [documentation](<a href=\"https://hex\">https://hex</a></p>\n<br/><p>访问 <a href=\"https://wujizhesan.github.io/posts/hello-world\" target=\"_blank\">https://wujizhesan.github.io/posts/hello-world</a> 阅读全文。</p>",
             "url": "https://wujizhesan.github.io/posts/hello-world",

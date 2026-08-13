@@ -1,1 +1,0 @@
-import{W as e}from"./theme.BPQl-yg9.js";var t=e({defaults:{"@type":`PostalAddress`}});export{t as addressResolver};
