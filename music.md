@@ -17,6 +17,7 @@ aside: false
 
 - 网易音乐人：[秋叶白](https://music.163.com/#/artist?id=58841752)
 - 网易云账号：[冬日放晴_夏夜虫鸣](https://y.music.163.com/m/user?id=1986115233)
+- 项目复盘：[从写代码到制作原创 Beat](/posts/music-production-project/)
 
 ## 想对你说的话都睡在了黑夜
 

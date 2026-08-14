@@ -48,6 +48,7 @@ MeiCode 是一个运行在终端里的命令行 AI 助手，支持文件与命�
 以「秋叶白」的名字制作并发布原创 Beat，尝试中国风、Melodic Rap、Hyperpop 与 UK Drill 等方向。
 
 - [查看音乐作品介绍](/music/)
+- [阅读原创 Beat 项目复盘](/posts/music-production-project/)
 - [查看网易音乐人主页](https://music.163.com/#/artist?id=58841752)
 
 ### 哈喽MAI · AI 音乐视频
@@ -56,6 +57,7 @@ MeiCode 是一个运行在终端里的命令行 AI 助手，支持文件与命�
 
 - [让东风告诉你](https://www.bilibili.com/video/BV1Lw411Q7TY/)
 - [【AI东雪莲】做我的《情人》](https://www.bilibili.com/video/BV1uT411a73X/)
+- [阅读 AI 音乐视频项目复盘](/posts/ai-music-video-project/)
 - [进入哈喽MAI的 B 站空间](https://space.bilibili.com/194244401)
 
 ## 想完成的事情
