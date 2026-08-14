@@ -1,7 +1,6 @@
 ---
 title: 从零理解 AI Agent：以 MeiCode 为例的学习与实践
 date: '2026-08-13T19:20:00+08:00'
-cover: /images/agent-loop-anime.webp
 description: 从大模型、工具调用和 Agent Loop 开始，系统学习规划、记忆、RAG、多智能体、安全与评估，并结合 MeiCode 的真实实现理解工程取舍。
 excerpt: Agent 不只是会调用工具的大模型。本文从最小循环讲起，用 MeiCode 贯穿工具设计、上下文、记忆、规划、多 Agent 与评估，整理一条能够真正动手实践的学习路线。
 categories:
