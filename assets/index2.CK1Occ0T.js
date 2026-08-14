@@ -1,0 +1,1 @@
+import{W as e}from"./theme.hFvHBRil.js";var t=e({defaults:{"@type":`AggregateRating`}});export{t as aggregateRatingResolver};

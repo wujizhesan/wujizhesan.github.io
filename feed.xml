@@ -4,7 +4,7 @@
         <title>留沙碎念</title>
         <link>https://wujizhesan.github.io/</link>
         <description>秋叶白的个人博客</description>
-        <lastBuildDate>Fri, 14 Aug 2026 04:09:20 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 14 Aug 2026 14:20:24 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,16 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2026 © 秋叶白</copyright>
         <atom:link href="https://wujizhesan.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[CADD 虚拟筛选流水线：从真实 EGFR 抑制剂到可复现筛选]]></title>
+            <link>https://wujizhesan.github.io/posts/cadd-virtual-screening</link>
+            <guid isPermaLink="false">https://wujizhesan.github.io/posts/cadd-virtual-screening</guid>
+            <pubDate>Fri, 14 Aug 2026 09:30:00 GMT</pubDate>
+            <description><![CDATA[用 AutoDock Vina、RDKit 与 scikit-learn 构建 EGFR 虚拟筛选流水线，并结合 ML 活性预测，完成一次"真实数据 + 对抗性审查"驱动的生物计算实践。]]></description>
+            <content:encoded><![CDATA[<p>这是一条建立在 <strong>真实药物数据</strong> 基础上的 EGFR 靶点虚拟筛选流水线。它用 AutoDock Vina 做分子对接、RDKit 处理分子、scikit-learn 做活性预测，并把流程通过一</p>
+<br/><p>访问 <a href="https://wujizhesan.github.io/posts/cadd-virtual-screening" target="_blank">https://wujizhesan.github.io/posts/cadd-virtual-screening</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (秋叶白)</author>
+        </item>
         <item>
             <title><![CDATA[从零理解 AI Agent：以 MeiCode 为例的学习与实践]]></title>
             <link>https://wujizhesan.github.io/posts/agent-learning-guide</link>

@@ -6,6 +6,7 @@
 
 ## Posts
 
+- [CADD 虚拟筛选流水线：从真实 EGFR 抑制剂到可复现筛选](https://wujizhesan.github.io/posts/cadd-virtual-screening.md): 用 AutoDock Vina、RDKit 与 scikit-learn 构建 EGFR 虚拟筛选流水线，并结合 ML 活性预测，完成一次"真实数据 + 对抗性审查"驱动的生物计算实践。
 - [从零理解 AI Agent：以 MeiCode 为例的学习与实践](https://wujizhesan.github.io/posts/agent-learning-guide.md): 从大模型、工具调用和 Agent Loop 开始，系统学习规划、记忆、RAG、多智能体、安全与评估，并结合 MeiCode 的真实实现理解工程取舍。
 - [MeiCode：终端里的多智能体 AI 助手](https://wujizhesan.github.io/posts/meicode.md): 了解 MeiCode 的 Agent 主循环、多智能体团队、Workflow、权限机制与快速开始方式。
 - [秋叶白：从写代码到制作原创 Beat](https://wujizhesan.github.io/posts/music-production-project.md): 复盘我以「秋叶白」制作原创 Beat 的过程，以及部分代表作背后的风格尝试、编曲思路与项目收获。
