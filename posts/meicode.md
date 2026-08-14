@@ -1,7 +1,7 @@
 ---
 title: MeiCode：终端里的多智能体 AI 助手
 date: '2026-08-13T17:30:00+08:00'
-cover: /images/meicode-team.webp
+cover: /images/meicode-team-anime.webp
 description: 了解 MeiCode 的 Agent 主循环、多智能体团队、Workflow、权限机制与快速开始方式。
 excerpt: MeiCode 是一个运行在终端里的多智能体 AI 助手，可操作文件、执行命令、搜索代码，并通过 Skill、Workflow 与团队编排完成复杂任务。
 categories:
