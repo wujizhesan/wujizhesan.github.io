@@ -33,6 +33,17 @@ tags:
 
 这些作品都没有使用采样。其中《我独南行》的每一个音符也是从头写出的。对我来说，无采样并不代表创作方式天然更高级，它只是迫使我直接面对旋律、和声与音色：一个段落不成立时，没有现成素材可以替我掩盖问题。
 
+## 其他公开作品
+
+网易云音乐人的公开曲目目前不止上面四首，下面这些作品也属于这条创作线。它们的制作信息我还在继续整理，所以先保留作品链接：
+
+- [“焚心生焰” SASIOVERLXRD type beat](https://music.163.com/song?id=2623946832)
+- [[FREE] “迷”鹿 SASIOVERLXRD Type Beat（版本一）](https://music.163.com/song?id=2650788632)
+- [[FREE] “烟火” emo/pop beat](https://music.163.com/song?id=2620660017)
+- [[FREE] “迷”鹿 SASIOVERLXRD Type Beat（版本二）](https://music.163.com/song?id=2609028225)
+- [【FREE】“绯色汽水” part 2](https://music.163.com/song?id=2605524627)
+- [【FREE】“无题” 中国风 beat](https://music.163.com/song?id=2736992015)
+
 ## 想对你说的话都睡在了黑夜
 
 这是四首里速度最慢的一首。标题先确定了作品的情绪边界：不是激烈的冲突，而是很多话已经到了嘴边，最后还是被留在深夜里。

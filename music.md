@@ -13,7 +13,7 @@ aside: false
 
 写代码之外，我也会做 Beat，并以「秋叶白」的名字在网易云音乐发布作品。
 
-这里不放播放器，只简单记录几次风格不同的创作。想听完整作品，可以从标题下方前往网易云音乐。
+这里不放播放器，先记录目前公开曲目中的几次风格尝试。想听完整作品，可以从标题下方前往网易云音乐。
 
 - 网易音乐人：[秋叶白](https://music.163.com/#/artist?id=58841752)
 - 网易云账号：[冬日放晴_夏夜虫鸣](https://y.music.163.com/m/user?id=1986115233)
@@ -47,4 +47,15 @@ aside: false
 风格：UK drill · type beat  
 [在网易云音乐查看作品](https://music.163.com/song?id=2138998184)
 
-这些作品记录的是我在代码之外的另一种表达。以后有新的作品，也会继续整理到这里。
+## 其他公开作品
+
+网易云音乐人的公开曲目还包括：
+
+- [“焚心生焰” SASIOVERLXRD type beat](https://music.163.com/song?id=2623946832)
+- [[FREE] “迷”鹿 SASIOVERLXRD Type Beat（版本一）](https://music.163.com/song?id=2650788632)
+- [[FREE] “烟火” emo/pop beat](https://music.163.com/song?id=2620660017)
+- [[FREE] “迷”鹿 SASIOVERLXRD Type Beat（版本二）](https://music.163.com/song?id=2609028225)
+- [【FREE】“绯色汽水” part 2](https://music.163.com/song?id=2605524627)
+- [【FREE】“无题” 中国风 beat](https://music.163.com/song?id=2736992015)
+
+上面只是目前公开曲目中的一部分。它们记录的是我在代码之外的另一种表达，后续也会继续整理新的作品。
