@@ -7,7 +7,7 @@
 ## 从零理解 AI Agent：以 MeiCode 为例的学习与实践
 
 - **Date**: 2026-08-13
-- **Categories**: 项目
+- **Categories**: 技术
 - **Tags**: MeiCode, AI, Agent, TypeScript, 多智能体
 
 从大模型、工具调用和 Agent Loop 开始，系统学习规划、记忆、RAG、多智能体、安全与评估，并结合 MeiCode 的真实实现理解工程取舍。
@@ -1749,8 +1749,8 @@ cp config.example.yaml ~/.mewcode/config.yaml
 
 ## 秋叶白：从写代码到制作原创 Beat
 
-- **Date**: 2023-10-01
-- **Categories**: 项目
+- **Date**: 2023-10-24
+- **Categories**: 音乐
 - **Tags**: 音乐制作, Beat Maker, 原创音乐, 编曲
 
 复盘我以「秋叶白」制作原创 Beat 的过程，以及部分代表作背后的风格尝试、编曲思路与项目收获。
@@ -1837,8 +1837,8 @@ cp config.example.yaml ~/.mewcode/config.yaml
 
 ## 哈喽MAI：我的 AI 音乐视频实验
 
-- **Date**: 2023-03-01
-- **Categories**: 项目
+- **Date**: 2023-03-10
+- **Categories**: 音乐
 - **Tags**: AI 音乐, so-vits-svc, 声音模型, 音频后期, 视频制作
 
 复盘哈喽MAI的 AI 音乐视频项目，以及我在声音模型训练、推理调教、填词、后期和视频发布中的实践。
@@ -2129,10 +2129,6 @@ MeiCode 是一个运行在终端里的命令行 AI 助手，支持文件与命�
 
 赞助者信息默认不公开；只有得到明确授权后，才会展示昵称、头像或个人链接。
 
-## 标签
-
-
-
 ## 关于本站
 
 留沙碎念的定位、技术与更新计划
@@ -2165,3 +2161,7 @@ MeiCode 是一个运行在终端里的命令行 AI 助手，支持文件与命�
 - [ ] 补充个人经历与完整技术栈
 - [ ] 整理更多项目演示和项目复盘
 - [ ] 增加经授权公开的赞助者名单
+
+## 标签
+
+
