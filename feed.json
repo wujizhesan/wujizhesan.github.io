@@ -11,32 +11,6 @@
     },
     "items": [
         {
-            "id": "https://wujizhesan.github.io/posts/ai-music-video-project",
-            "content_html": "<p>在做原创 Beat 之外，我还做过一条更偏 AI 实验的创作线：<strong>哈喽MAI</strong>。</p>\n<p>2023 年，AI 声音转换工具开始被更多创作者使用。我当时最感兴趣的不是“一键让某个角色唱歌”的结果，而是结</p>\n<br/><p>访问 <a href=\"https://wujizhesan.github.io/posts/ai-music-video-project\" target=\"_blank\">https://wujizhesan.github.io/posts/ai-music-video-project</a> 阅读全文。</p>",
-            "url": "https://wujizhesan.github.io/posts/ai-music-video-project",
-            "title": "哈喽MAI：我的 AI 音乐视频实验",
-            "summary": "复盘哈喽MAI的 AI 音乐视频项目，以及我在声音模型训练、推理调教、填词、后期和视频发布中的实践。",
-            "date_modified": "2026-08-13T17:20:00.000Z",
-            "date_published": "2026-08-13T17:20:00.000Z",
-            "author": {
-                "name": "秋叶白",
-                "url": "https://github.com/wujizhesan"
-            }
-        },
-        {
-            "id": "https://wujizhesan.github.io/posts/music-production-project",
-            "content_html": "<p>写代码之外，我也会做 Beat。</p>\n<p>我使用「秋叶白」这个名字在网易云音乐发布作品。它不是为了给技术经历增加一个显得特别的标签，而是我确实愿意长期保留的一条创作线：有些想法适合写成代码，有些情绪更适合</p>\n<br/><p>访问 <a href=\"https://wujizhesan.github.io/posts/music-production-project\" target=\"_blank\">https://wujizhesan.github.io/posts/music-production-project</a> 阅读全文。</p>",
-            "url": "https://wujizhesan.github.io/posts/music-production-project",
-            "title": "秋叶白：从写代码到制作原创 Beat",
-            "summary": "复盘我以「秋叶白」制作原创 Beat 的过程，以及四首作品背后的风格尝试、编曲思路与项目收获。",
-            "date_modified": "2026-08-13T17:10:00.000Z",
-            "date_published": "2026-08-13T17:10:00.000Z",
-            "author": {
-                "name": "秋叶白",
-                "url": "https://github.com/wujizhesan"
-            }
-        },
-        {
             "id": "https://wujizhesan.github.io/posts/agent-learning-guide",
             "content_html": "<p>我第一次接触 Agent 时，以为它就是“大模型加几个工具”。模型会选择函数，程序执行函数，再把结果返回去，看上去并不复杂。</p>\n<p>真正动手以后，问题才一个接一个出现：工具失败了怎么办？模型重复同一个动</p>\n<br/><p>访问 <a href=\"https://wujizhesan.github.io/posts/agent-learning-guide\" target=\"_blank\">https://wujizhesan.github.io/posts/agent-learning-guide</a> 阅读全文。</p>",
             "url": "https://wujizhesan.github.io/posts/agent-learning-guide",
@@ -57,6 +31,32 @@
             "summary": "了解 MeiCode 的 Agent 主循环、多智能体团队、Workflow、权限机制与快速开始方式。",
             "date_modified": "2026-08-13T09:30:00.000Z",
             "date_published": "2026-08-13T09:30:00.000Z",
+            "author": {
+                "name": "秋叶白",
+                "url": "https://github.com/wujizhesan"
+            }
+        },
+        {
+            "id": "https://wujizhesan.github.io/posts/music-production-project",
+            "content_html": "<p>写代码之外，我也会做 Beat。</p>\n<p>我使用「秋叶白」这个名字在网易云音乐发布作品。它不是为了给技术经历增加一个显得特别的标签，而是我确实愿意长期保留的一条创作线：有些想法适合写成代码，有些情绪更适合</p>\n<br/><p>访问 <a href=\"https://wujizhesan.github.io/posts/music-production-project\" target=\"_blank\">https://wujizhesan.github.io/posts/music-production-project</a> 阅读全文。</p>",
+            "url": "https://wujizhesan.github.io/posts/music-production-project",
+            "title": "秋叶白：从写代码到制作原创 Beat",
+            "summary": "复盘我以「秋叶白」制作原创 Beat 的过程，以及部分代表作背后的风格尝试、编曲思路与项目收获。",
+            "date_modified": "2023-10-01T12:00:00.000Z",
+            "date_published": "2023-10-01T12:00:00.000Z",
+            "author": {
+                "name": "秋叶白",
+                "url": "https://github.com/wujizhesan"
+            }
+        },
+        {
+            "id": "https://wujizhesan.github.io/posts/ai-music-video-project",
+            "content_html": "<p>在做原创 Beat 之外，我还做过一条更偏 AI 实验的创作线：<strong>哈喽MAI</strong>。</p>\n<p>2023 年，AI 声音转换工具开始被更多创作者使用。我当时最感兴趣的不是“一键让某个角色唱歌”的结果，而是结</p>\n<br/><p>访问 <a href=\"https://wujizhesan.github.io/posts/ai-music-video-project\" target=\"_blank\">https://wujizhesan.github.io/posts/ai-music-video-project</a> 阅读全文。</p>",
+            "url": "https://wujizhesan.github.io/posts/ai-music-video-project",
+            "title": "哈喽MAI：我的 AI 音乐视频实验",
+            "summary": "复盘哈喽MAI的 AI 音乐视频项目，以及我在声音模型训练、推理调教、填词、后期和视频发布中的实践。",
+            "date_modified": "2023-03-01T12:00:00.000Z",
+            "date_published": "2023-03-01T12:00:00.000Z",
             "author": {
                 "name": "秋叶白",
                 "url": "https://github.com/wujizhesan"

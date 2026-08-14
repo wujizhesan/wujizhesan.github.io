@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wujizhesan.github.io/</id>
     <title>留沙碎念</title>
-    <updated>2026-08-14T03:09:08.892Z</updated>
+    <updated>2026-08-14T03:24:20.591Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>秋叶白</name>
@@ -15,38 +15,6 @@
     <logo>https://github.com/wujizhesan.png?size=256</logo>
     <icon>https://wujizhesan.github.io/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2026 © 秋叶白</rights>
-    <entry>
-        <title type="html"><![CDATA[哈喽MAI：我的 AI 音乐视频实验]]></title>
-        <id>https://wujizhesan.github.io/posts/ai-music-video-project</id>
-        <link href="https://wujizhesan.github.io/posts/ai-music-video-project"/>
-        <updated>2026-08-13T17:20:00.000Z</updated>
-        <summary type="html"><![CDATA[复盘哈喽MAI的 AI 音乐视频项目，以及我在声音模型训练、推理调教、填词、后期和视频发布中的实践。]]></summary>
-        <content type="html"><![CDATA[<p>在做原创 Beat 之外，我还做过一条更偏 AI 实验的创作线：<strong>哈喽MAI</strong>。</p>
-<p>2023 年，AI 声音转换工具开始被更多创作者使用。我当时最感兴趣的不是“一键让某个角色唱歌”的结果，而是结</p>
-<br/><p>访问 <a href="https://wujizhesan.github.io/posts/ai-music-video-project" target="_blank">https://wujizhesan.github.io/posts/ai-music-video-project</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>秋叶白</name>
-            <email>i@valaxy.site</email>
-            <uri>https://github.com/wujizhesan</uri>
-        </author>
-        <published>2026-08-13T17:20:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[秋叶白：从写代码到制作原创 Beat]]></title>
-        <id>https://wujizhesan.github.io/posts/music-production-project</id>
-        <link href="https://wujizhesan.github.io/posts/music-production-project"/>
-        <updated>2026-08-13T17:10:00.000Z</updated>
-        <summary type="html"><![CDATA[复盘我以「秋叶白」制作原创 Beat 的过程，以及四首作品背后的风格尝试、编曲思路与项目收获。]]></summary>
-        <content type="html"><![CDATA[<p>写代码之外，我也会做 Beat。</p>
-<p>我使用「秋叶白」这个名字在网易云音乐发布作品。它不是为了给技术经历增加一个显得特别的标签，而是我确实愿意长期保留的一条创作线：有些想法适合写成代码，有些情绪更适合</p>
-<br/><p>访问 <a href="https://wujizhesan.github.io/posts/music-production-project" target="_blank">https://wujizhesan.github.io/posts/music-production-project</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>秋叶白</name>
-            <email>i@valaxy.site</email>
-            <uri>https://github.com/wujizhesan</uri>
-        </author>
-        <published>2026-08-13T17:10:00.000Z</published>
-    </entry>
     <entry>
         <title type="html"><![CDATA[从零理解 AI Agent：以 MeiCode 为例的学习与实践]]></title>
         <id>https://wujizhesan.github.io/posts/agent-learning-guide</id>
@@ -80,5 +48,37 @@
             <uri>https://github.com/wujizhesan</uri>
         </author>
         <published>2026-08-13T09:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[秋叶白：从写代码到制作原创 Beat]]></title>
+        <id>https://wujizhesan.github.io/posts/music-production-project</id>
+        <link href="https://wujizhesan.github.io/posts/music-production-project"/>
+        <updated>2023-10-01T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[复盘我以「秋叶白」制作原创 Beat 的过程，以及部分代表作背后的风格尝试、编曲思路与项目收获。]]></summary>
+        <content type="html"><![CDATA[<p>写代码之外，我也会做 Beat。</p>
+<p>我使用「秋叶白」这个名字在网易云音乐发布作品。它不是为了给技术经历增加一个显得特别的标签，而是我确实愿意长期保留的一条创作线：有些想法适合写成代码，有些情绪更适合</p>
+<br/><p>访问 <a href="https://wujizhesan.github.io/posts/music-production-project" target="_blank">https://wujizhesan.github.io/posts/music-production-project</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>秋叶白</name>
+            <email>i@valaxy.site</email>
+            <uri>https://github.com/wujizhesan</uri>
+        </author>
+        <published>2023-10-01T12:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[哈喽MAI：我的 AI 音乐视频实验]]></title>
+        <id>https://wujizhesan.github.io/posts/ai-music-video-project</id>
+        <link href="https://wujizhesan.github.io/posts/ai-music-video-project"/>
+        <updated>2023-03-01T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[复盘哈喽MAI的 AI 音乐视频项目，以及我在声音模型训练、推理调教、填词、后期和视频发布中的实践。]]></summary>
+        <content type="html"><![CDATA[<p>在做原创 Beat 之外，我还做过一条更偏 AI 实验的创作线：<strong>哈喽MAI</strong>。</p>
+<p>2023 年，AI 声音转换工具开始被更多创作者使用。我当时最感兴趣的不是“一键让某个角色唱歌”的结果，而是结</p>
+<br/><p>访问 <a href="https://wujizhesan.github.io/posts/ai-music-video-project" target="_blank">https://wujizhesan.github.io/posts/ai-music-video-project</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>秋叶白</name>
+            <email>i@valaxy.site</email>
+            <uri>https://github.com/wujizhesan</uri>
+        </author>
+        <published>2023-03-01T12:00:00.000Z</published>
     </entry>
 </feed>

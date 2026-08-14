@@ -6,10 +6,10 @@
 
 ## Posts
 
-- [哈喽MAI：我的 AI 音乐视频实验](https://wujizhesan.github.io/posts/ai-music-video-project.md): 复盘哈喽MAI的 AI 音乐视频项目，以及我在声音模型训练、推理调教、填词、后期和视频发布中的实践。
-- [秋叶白：从写代码到制作原创 Beat](https://wujizhesan.github.io/posts/music-production-project.md): 复盘我以「秋叶白」制作原创 Beat 的过程，以及四首作品背后的风格尝试、编曲思路与项目收获。
 - [从零理解 AI Agent：以 MeiCode 为例的学习与实践](https://wujizhesan.github.io/posts/agent-learning-guide.md): 从大模型、工具调用和 Agent Loop 开始，系统学习规划、记忆、RAG、多智能体、安全与评估，并结合 MeiCode 的真实实现理解工程取舍。
 - [MeiCode：终端里的多智能体 AI 助手](https://wujizhesan.github.io/posts/meicode.md): 了解 MeiCode 的 Agent 主循环、多智能体团队、Workflow、权限机制与快速开始方式。
+- [秋叶白：从写代码到制作原创 Beat](https://wujizhesan.github.io/posts/music-production-project.md): 复盘我以「秋叶白」制作原创 Beat 的过程，以及部分代表作背后的风格尝试、编曲思路与项目收获。
+- [哈喽MAI：我的 AI 音乐视频实验](https://wujizhesan.github.io/posts/ai-music-video-project.md): 复盘哈喽MAI的 AI 音乐视频项目，以及我在声音模型训练、推理调教、填词、后期和视频发布中的实践。
 
 ## Pages
 
