@@ -105,10 +105,6 @@ python src/agent.py --report
 python src/qa_verify.py
 ```
 
-## 面试讲解稿
-
-配套的面试讲解稿（30 秒版、追问防御、红线提醒）收录在仓库的 `INTERVIEW_GUIDE.md`。
-
 ## 项目地址
 
 项目源码、完整文档与讲解稿均保存在 GitHub：
