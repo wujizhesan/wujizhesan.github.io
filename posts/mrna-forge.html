@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>mRNA-Forge：一个可审计的 mRNA 序列优化 Agent</title>
+<meta name="description" content="将蛋白序列优化、确定性质量控制、VaxPress 和 LLM 工具编排组合成一个可复现的 mRNA 设计工作流。">
+<style>
+:root{color-scheme:light dark;--bg:#f4f7fb;--card:#fff;--text:#172033;--muted:#60708a;--line:#dce5f0;--accent:#2563eb;--code:#0f172a}
+@media(prefers-color-scheme:dark){:root{--bg:#0b1220;--card:#111b2e;--text:#e7eef9;--muted:#9fb0c8;--line:#263651;--accent:#7db0ff;--code:#020617}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif;line-height:1.8}
+main{max-width:920px;margin:0 auto;padding:48px 20px 80px}.back{color:var(--accent);text-decoration:none}.hero,.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:28px;margin-top:22px;box-shadow:0 8px 30px #0f172a12}
+h1{font-size:clamp(28px,5vw,46px);line-height:1.25;margin:18px 0 10px}h2{margin-top:34px;font-size:25px}h3{margin-top:25px}
+.meta{color:var(--muted);font-size:14px}.pill{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:2px 10px;margin:3px;color:var(--muted);font-size:13px}
+a{color:var(--accent)}li{margin:5px 0}pre{background:var(--code);color:#d7e5ff;border-radius:12px;padding:18px;overflow:auto}code{font-family:Consolas,monospace}blockquote{border-left:4px solid var(--accent);margin:20px 0;padding:8px 18px;background:#2563eb12}
+table{border-collapse:collapse;width:100%;margin:16px 0}th,td{border-bottom:1px solid var(--line);text-align:left;padding:9px}
+footer{color:var(--muted);font-size:13px;margin-top:28px}
+</style>
+</head>
+<body>
+<main>
+<a class="back" href="/posts/">← 返回文章列表</a>
+<section class="hero">
+<div class="meta">项目 · mRNA · 生物信息 · Agent · 2026-08-21</div>
+<h1>mRNA-Forge：一个可审计的 mRNA 序列优化 Agent</h1>
+<p>将蛋白序列优化、确定性质量控制、VaxPress 和 LLM 工具编排组合成一个可复现的 mRNA 设计工作流。</p>
+<p><a href="https://github.com/wujizhesan/mrna-forge">在 GitHub 查看源码 →</a></p>
+</section>
+<section class="card">
+<h2>它解决什么问题</h2>
+<p>序列优化不能只看一个“模型分数”。一个可交付的工作流至少要回答：候选 mRNA 是否忠实编码原始蛋白、密码子和 GC 指标如何、不同优化策略有什么差异，以及每个结论能否回溯到具体工具和输入。</p>
+<pre><code>LLM Agent：选择工具、组织步骤、解释结果
+              ↓
+确定性工具层：优化、评分、反翻译验证、benchmark
+              ↓
+结构化结果：指标、规则判定、序列和 HTML 报告</code></pre>
+<p>LLM 不直接生成指标，所有数值来自本地计算。</p>
+<h2>已验证的 demo</h2>
+<p>项目使用真实荧光素酶蛋白序列作为 demo，长度为 550 aa。greedy 路径可以生成 1650 nt mRNA，并且反翻译结果与原蛋白一致。</p>
+<table><tr><th>指标</th><th>结果</th></tr><tr><td>CAI</td><td>1.000</td></tr><tr><td>GC</td><td>65.2%</td></tr><tr><td>表达评分</td><td>0.602（启发式）</td></tr><tr><td>规则判定</td><td>REVIEW：GC 高于当前线性 mRNA 阈值</td></tr></table>
+<p>这里保留 REVIEW 很重要：优化不是单指标越高越好，而是在表达、稳定性和结构之间权衡。</p>
+<h2>Agent 和工具</h2>
+<ul><li><code>optimize</code>：生成候选 mRNA。</li><li><code>score</code>：计算 CAI、GC、GC3、UpA、UpU 和规则判定。</li><li><code>verify</code>：反翻译并检查蛋白序列一致性。</li><li><code>benchmark</code>：比较不同编码策略。</li><li>Streamlit UI：展示指标、雷达图、滑窗 GC、报告和解释。</li></ul>
+<h2>当前边界</h2>
+<p>这不是临床或生产级序列设计系统。目前的表达评分是可解释的启发式评分，还没有用实验表达数据校准；circRNA 和 saRNA 仍处于规则扩展阶段。后续可以接入真实表达数据、UTR/Kozak 设计、RNA 结构约束和更严格的外部 benchmark。</p>
+<h2>快速开始</h2>
+<pre><code>python -m venv .venv
+.venv\Scripts\pip install -r requirements.txt
+.venv\Scripts\python agent.py --demo
+.venv\Scripts\streamlit run app_streamlit.py</code></pre>
+<p>公开仓库不包含 API Key。需要 Agent 编排时，请通过环境变量配置 <code>DEEPSEEK_API_KEY</code>。</p>
+</section>
+<footer>mRNA-Forge · <a href="https://github.com/wujizhesan/mrna-forge">GitHub</a> · <a href="/">返回首页</a></footer>
+</main>
+</body>
+</html>
