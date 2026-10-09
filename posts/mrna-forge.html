@@ -1,56 +1,159 @@
-<!doctype html>
-<html lang="zh-CN">
+<!DOCTYPE html>
+<html  lang="zh-CN">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/yun.svg">
+    <script>
+    ;(function () {
+      const prefersDark =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
+      if (setting === 'dark' || (prefersDark && setting !== 'light'))
+        document.documentElement.classList.toggle('dark', true)
+    })()
+    </script>
+  <style type="text/css">
+    :root { color-scheme: light dark; --va-c-bg: #fff; }
+    html.dark { --va-c-bg: #000; }
+    html { background-color: var(--va-c-bg); }
+  </style><style id="valaxy-fouc">body{opacity:0!important}</style><style>body{transition:opacity .15s ease}</style><noscript><style>body{opacity:1!important}</style></noscript><script>(function foucGuardScript(maxDuration) {
+  var done = 0;
+  function reveal() {
+    if (done) return;
+    done = 1;
+    var s = document.getElementById("valaxy-fouc");
+    if (s) s.remove();
+  }
+  function check() {
+    var links = document.querySelectorAll('link[rel="stylesheet"]');
+    for (var i = 0; i < links.length; i++) {
+      if (!links[i].sheet) return;
+    }
+    reveal();
+  }
+  new MutationObserver(check).observe(document.head, {
+    childList: true,
+    attributes: true,
+    attributeFilter: ["media", "rel"]
+  });
+  addEventListener("load", reveal);
+  if (maxDuration)
+    setTimeout(reveal, maxDuration);
+})(5000)</script>
+    <script>
+    const locale = localStorage.getItem('valaxy-locale') || 'zh-CN';
+    document.documentElement.setAttribute('lang', locale);
+    </script>
+    
+  <script type="module" crossorigin src="/assets/index.DacJTpEd.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime.hePW80VL.js">
+  <link rel="modulepreload" crossorigin href="/assets/framework.CSzCw9LZ.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-i18n.DPiClx16.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-router.4BejMmlS.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/dayjs.jVvjK6ua.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/pinia.BB0vZneo.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/@vueuse/motion.ZsolTB8c.js">
+  <link rel="modulepreload" crossorigin href="/assets/theme.CfLrgG9f.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/nprogress.Dew4DlVv.js">
+  <link rel="stylesheet" crossorigin href="/assets/style.Y2scpiEV.css">
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.DMm9YOAa.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.BEiXGLvX.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.CTRA-rTL.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.CL6g_b3V.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.BsDP51OF.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.CTYiF6lA.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.Dxdc4cR9.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Cx986IdX.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Jm3AIy58.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.SpSLRI95.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.NWA7e6Wa.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.BMLOBm91.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.B22Nviop.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.Dr94JaBh.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.iY-2wyZ7.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.t53AETM-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.DA0__PXp.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.D1sUS0GD.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.DbIhKOiC.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.C3H0VqGB.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.DN2j7dab.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.CS6fqUqJ.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D3wIWfF6.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D5yQViql.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.mCD8mA8B.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.C195tn64.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.Dy4dx90m.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.oD1tc_U0.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size3-Regular.CTq5MqoE.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.Dl5lxZxV.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.BF-4gkZK.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.CO6r4hn1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.C0xS9mPB.woff" as="font" type="font/woff" crossorigin>
+<link rel="modulepreload" crossorigin href="/assets/theme.CfLrgG9f.js">
+<link rel="preload" href="/assets/none.DLM1AMsD.jpg" as="image">
+<link rel="preload" href="/assets/bg-img.kXdNMxcF.jpg" as="image">
+<link rel="preload" href="/assets/sidebar-bg-img.mp54gEws.webp" as="image">
+<link rel="modulepreload" crossorigin href="/assets/mrna-forge.B9HjsOzz.js">
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>mRNA-Forge：一个可审计的 mRNA 序列优化 Agent</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>mRNA-Forge：一个可审计的 mRNA 序列优化 Agent - 留沙碎念</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&display=swap">
 <meta name="description" content="将蛋白序列优化、确定性质量控制、VaxPress 和 LLM 工具编排组合成一个可复现的 mRNA 设计工作流。">
-<style>
-:root{color-scheme:light dark;--bg:#f4f7fb;--card:#fff;--text:#172033;--muted:#60708a;--line:#dce5f0;--accent:#2563eb;--code:#0f172a}
-@media(prefers-color-scheme:dark){:root{--bg:#0b1220;--card:#111b2e;--text:#e7eef9;--muted:#9fb0c8;--line:#263651;--accent:#7db0ff;--code:#020617}}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif;line-height:1.8}
-main{max-width:920px;margin:0 auto;padding:48px 20px 80px}.back{color:var(--accent);text-decoration:none}.hero,.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:28px;margin-top:22px;box-shadow:0 8px 30px #0f172a12}
-h1{font-size:clamp(28px,5vw,46px);line-height:1.25;margin:18px 0 10px}h2{margin-top:34px;font-size:25px}h3{margin-top:25px}
-.meta{color:var(--muted);font-size:14px}.pill{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:2px 10px;margin:3px;color:var(--muted);font-size:13px}
-a{color:var(--accent)}li{margin:5px 0}pre{background:var(--code);color:#d7e5ff;border-radius:12px;padding:18px;overflow:auto}code{font-family:Consolas,monospace}blockquote{border-left:4px solid var(--accent);margin:20px 0;padding:8px 18px;background:#2563eb12}
-table{border-collapse:collapse;width:100%;margin:16px 0}th,td{border-bottom:1px solid var(--line);text-align:left;padding:9px}
-footer{color:var(--muted);font-size:13px;margin-top:28px}
-</style>
+<meta property="og:description" content="mRNA-Forge 把“序列设计 → 质量评估 → 反翻译验证 → 报告交付”封装成可审计 Agent，LLM 负责编排，数值结果来自本地工具。">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:locale:alternate" content>
+<meta property="og:site_name" content="留沙碎念">
+<meta property="og:title" content="mRNA-Forge：一个可审计的 mRNA 序列优化 Agent">
+<meta property="og:image" content="/yun.svg">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://wujizhesan.github.io/">
+<link rel="icon" href="/yun.svg" type="image/svg+xml">
+<meta name="generator" content="Valaxy 1.0.0-rc.5">
+<meta name="theme-color" content="#fff">
+<meta name="msapplication-TileColor" content="#fff">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
-<main>
-<a class="back" href="/posts/">← 返回文章列表</a>
-<section class="hero">
-<div class="meta">项目 · mRNA · 生物信息 · Agent · 2026-08-21</div>
-<h1>mRNA-Forge：一个可审计的 mRNA 序列优化 Agent</h1>
-<p>将蛋白序列优化、确定性质量控制、VaxPress 和 LLM 工具编排组合成一个可复现的 mRNA 设计工作流。</p>
-<p><a href="https://github.com/wujizhesan/mrna-forge">在 GitHub 查看源码 →</a></p>
-</section>
-<section class="card">
-<h2>它解决什么问题</h2>
-<p>序列优化不能只看一个“模型分数”。一个可交付的工作流至少要回答：候选 mRNA 是否忠实编码原始蛋白、密码子和 GC 指标如何、不同优化策略有什么差异，以及每个结论能否回溯到具体工具和输入。</p>
-<pre><code>LLM Agent：选择工具、组织步骤、解释结果
-              ↓
-确定性工具层：优化、评分、反翻译验证、benchmark
-              ↓
-结构化结果：指标、规则判定、序列和 HTML 报告</code></pre>
-<p>LLM 不直接生成指标，所有数值来自本地计算。</p>
-<h2>已验证的 demo</h2>
-<p>项目使用真实荧光素酶蛋白序列作为 demo，长度为 550 aa。greedy 路径可以生成 1650 nt mRNA，并且反翻译结果与原蛋白一致。</p>
-<table><tr><th>指标</th><th>结果</th></tr><tr><td>CAI</td><td>1.000</td></tr><tr><td>GC</td><td>65.2%</td></tr><tr><td>表达评分</td><td>0.602（启发式）</td></tr><tr><td>规则判定</td><td>REVIEW：GC 高于当前线性 mRNA 阈值</td></tr></table>
-<p>这里保留 REVIEW 很重要：优化不是单指标越高越好，而是在表达、稳定性和结构之间权衡。</p>
-<h2>Agent 和工具</h2>
-<ul><li><code>optimize</code>：生成候选 mRNA。</li><li><code>score</code>：计算 CAI、GC、GC3、UpA、UpU 和规则判定。</li><li><code>verify</code>：反翻译并检查蛋白序列一致性。</li><li><code>benchmark</code>：比较不同编码策略。</li><li>Streamlit UI：展示指标、雷达图、滑窗 GC、报告和解释。</li></ul>
-<h2>当前边界</h2>
-<p>这不是临床或生产级序列设计系统。目前的表达评分是可解释的启发式评分，还没有用实验表达数据校准；circRNA 和 saRNA 仍处于规则扩展阶段。后续可以接入真实表达数据、UTR/Kozak 设计、RNA 结构约束和更严格的外部 benchmark。</p>
-<h2>快速开始</h2>
-<pre><code>python -m venv .venv
-.venv\Scripts\pip install -r requirements.txt
-.venv\Scripts\python agent.py --demo
-.venv\Scripts\streamlit run app_streamlit.py</code></pre>
-<p>公开仓库不包含 API Key。需要 Agent 编排时，请通过环境变量配置 <code>DEEPSEEK_API_KEY</code>。</p>
-</section>
-<footer>mRNA-Forge · <a href="https://github.com/wujizhesan/mrna-forge">GitHub</a> · <a href="/">返回首页</a></footer>
-</main>
+  <div id="app"><!--[--><!--[--><!--[--><!--v-if--><!--v-if--><div class="yun-page-header-gradient"></div><div class="yun-nav-menu z-$yun-z-nav-menu fixed bg-transparent" data-v-e1a07c12><!--  --><div class="inline-flex justify-start items-center flex-1" data-v-e1a07c12><button type="button" class="vt-hamburger menu-btn sidebar-toggle leading-4 size-12 lg:hidden!" aria-label="mobile navigation" aria-expanded="false" inline-flex cursor="pointer" hover="bg-white/80 dark:bg-black/80" z="$yun-z-menu-btn" data-v-e1a07c12><span class="vt-hamburger-container"><span class="vt-hamburger-top"></span><span class="vt-hamburger-middle"></span><span class="vt-hamburger-bottom"></span></span></button><a href="/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 data-v-e1a07c12><!--[--><div class="size-6 i-ri-home-4-line"></div><!--]--></a><div class="hidden lg:contents" data-v-e1a07c12><!--[--><a href="/posts/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="menu.posts" data-v-e1a07c12><!--[--><div class="size-6 i-ri-article-line"></div><!--]--></a><a href="/categories/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="分类" data-v-e1a07c12><!--[--><div class="size-6 i-ri-price-tag-3-line"></div><!--]--></a><a href="/archives/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="归档" data-v-e1a07c12><!--[--><div class="size-6 i-ri-archive-line"></div><!--]--></a><a href="/projects/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="项目" data-v-e1a07c12><!--[--><div class="size-6 i-ri-code-box-line"></div><!--]--></a><a href="/music/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="音乐" data-v-e1a07c12><!--[--><div class="size-6 i-ri-music-2-line"></div><!--]--></a><a href="/sites/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="站点地图" data-v-e1a07c12><!--[--><div class="size-6 i-ri-route-line"></div><!--]--></a><a href="/sponsors/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="赞助者们" data-v-e1a07c12><!--[--><div class="size-6 i-ri-heart-3-line"></div><!--]--></a><!--]--></div></div><div class="flex flex-1 flex-center" data-v-e1a07c12><div flex="~ center col h-full" class="nav-menu-title-container cursor-pointer" data-v-e1a07c12><!----><span class="font-light truncate">留沙碎念</span></div></div><div class="inline-flex-center justify-end items-center flex-1" data-v-e1a07c12><!-- <template v-if="!app.isMobile && themeConfig.nav">
+          <template v-for="item in themeConfig.nav" :key="item.text">
+            <AppLink
+              v-if="'link' in item"
+              :to="item.link"
+              class="menu-btn inline-flex-center p-2 transition text-$va-c-text"
+              inline-flex cursor="pointer"
+              hover="bg-white/80 dark:bg-black/80"
+              z="$yun-z-menu-btn"
+            >
+              {{ item.text }}
+            </AppLink>
+            <template v-else-if="'items' in item" />
+          </template>
+        </template> --><!----><button class="yun-icon-btn yun-toggle-dark rounded-none!" title="切换深色模式" data-v-e1a07c12><div i="ri-sun-line dark:ri-moon-line"></div></button><!--[--><button class="yun-search-btn yun-icon-btn popup-trigger rounded-none! size-12 inline-flex justify-center items-center" text="xl $va-c-text" title="搜索"><div i-ri-search-line op-80 hover="op-100"></div></button><!----><!--]--></div></div><!----><!--v-if--><!----><!--[--><div class="yun-bg"></div><!--]--><!----><a href="#" class="back-to-top yun-icon-btn bg-$va-c-bg-soft shadow-md"><div class="size-8" i-ri-arrow-up-s-line></div><svg class="progress-circle-container" viewBox="0 0 100 100"><circle stroke-dasharray="301.59289474462014 301.59289474462014" stroke-dashoffset="301.59289474462014" stroke="currentColor" stroke-width="2" stroke-linecap="round" class="progress-circle" cx="50" cy="50" r="48" fill="none"></circle></svg></a><!--]--><!--[--><!--]--><!----><!--]--><div class="min-h-screen flex flex-col"><div class="mt-12 md:mt-24 yun-layout-wrapper__content"><!--[--><div class="yun-layout-left gap-4 sticky top-$yun-margin-top w-80"><!--[--><div class="yun-card flex-center rounded-2 overflow-hidden p-4 min-h-sm" flex="~ col gap-1" min-h="100px" bg="$va-c-bg-light"><!----><!----><div class="yun-card-body relative" w="full" flex="~ col" items="center"><!--[--><div class="site-info gap-1 items-center text-center" flex="~ col" p="t-8"><a href="/about" class="site-author-avatar inline-flex-center"><div class="relative yun-author-avatar"><div class="absolute size-full avatar-bg bg-image-$yun-home-hero-image-background-image filter-blur-2xl op-30"></div><img class="rounded-full size-full bg-white dark:bg-white/20 p-1 m-0 absolute" src="https://github.com/wujizhesan.png?size=256" alt="avatar"><span class="site-author-status absolute" title="The moonlight is beautiful.">🌌</span></div></a><a href="/about" class="site-author-name font-black font-serif text-$va-c-text op-80 hover:op-100 flex-center">秋叶白</a><span class="site-name text-lg leading-loose">留沙碎念</span><h4 class="site-subtitle block op-70" text="xs">秋叶之白，无寂乎哉</h4><div class="site-description">秋叶白的个人博客</div></div><div class="yun-gradient-line my-2 op-20"></div><nav class="site-nav" text-xl mt-2><a href="/archives/" class="post-classify-nav-item gap-1 w-20 p-2 rounded transition op-80" flex="~ col center" title="归档" hover="bg-$va-c-bg-soft op-100"><div flex="~ col" class="text-$va-c-text inline-flex-center gap-1"><!-- Use CSS to toggle icons based on router-link-active class to avoid SSR hydration mismatch --><div class="text-2xl icon-default i-ri-archive-line"></div><div class="text-2xl icon-active i-ri-archive-fill"></div><span class="text-xs">归档</span></div><span class="count text-base text-black/80 dark:text-white/80">8</span></a><a href="/categories/" class="post-classify-nav-item gap-1 w-20 p-2 rounded transition op-80" flex="~ col center" title="分类" hover="bg-$va-c-bg-soft op-100"><div flex="~ col" class="text-$va-c-text inline-flex-center gap-1"><!-- Use CSS to toggle icons based on router-link-active class to avoid SSR hydration mismatch --><div class="text-2xl icon-default i-ri-folder-2-line"></div><div class="text-2xl icon-active i-ri-folder-2-fill"></div><span class="text-xs">分类</span></div><span class="count text-base text-black/80 dark:text-white/80">4</span></a><a href="/tags/" class="post-classify-nav-item gap-1 w-20 p-2 rounded transition op-80" flex="~ col center" title="标签" hover="bg-$va-c-bg-soft op-100"><div flex="~ col" class="text-$va-c-text inline-flex-center gap-1"><!-- Use CSS to toggle icons based on router-link-active class to avoid SSR hydration mismatch --><div class="text-2xl icon-default i-ri-price-tag-3-line"></div><div class="text-2xl icon-active i-ri-price-tag-3-fill"></div><span class="text-xs">标签</span></div><span class="count text-base text-black/80 dark:text-white/80">29</span></a></nav><div class="yun-gradient-line my-2 op-20"></div><div class="links-of-author"><!--[--><a class="links-of-author-item yun-icon-btn" rel="noopener" href="https://github.com/wujizhesan" title="GitHub" target="_blank" style="color:#6e5494;"><div class="i-ri-github-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="https://y.music.163.com/m/user?id=1986115233" title="网易云音乐" target="_blank" style="color:#C10D0C;"><div class="i-ri-netease-cloud-music-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="https://space.bilibili.com/194244401" title="哔哩哔哩" target="_blank" style="color:#00AEEC;"><div class="i-ri-bilibili-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="/atom.xml" title="RSS" target="_blank" style="color:#f26522;"><div class="i-ri-rss-line icon"></div></a><!--]--></div><div class="yun-gradient-line my-2 op-20"></div><div class="links flex-center"><!--[--><a href="/about/" class="va-link link-item yun-icon-btn" inline-flex title="关于" style="color:undefined;"><!--[--><div class="i-ri-user-3-line icon size-6"></div><!--]--></a><a href="/projects/" class="va-link link-item yun-icon-btn" inline-flex title="项目" style="color:undefined;"><!--[--><div class="i-ri-code-box-line icon size-6"></div><!--]--></a><a href="/sites/" class="va-link link-item yun-icon-btn" inline-flex title="站点" style="color:undefined;"><!--[--><div class="i-ri-route-line icon size-6"></div><!--]--></a><a href="/sponsors/" class="va-link link-item yun-icon-btn" inline-flex title="赞助" style="color:#f87171;"><!--[--><div class="i-ri-heart-3-line icon size-6"></div><!--]--></a><!--]--></div><!--]--></div><!----></div><!--[--><!--
+    Empty placeholder, meant to be overridden by the user (see demo/yun/components/YunAdBoard.vue).
+    `v-if="false"` renders a comment node instead of a real element: this avoids the SSR hydration
+    crash a raw `<template>` causes (#711), while still adding no gap to the parent flex layout,
+    which an empty `<div>` would (ab57216f).
+  --><!----><!--]--><!--]--></div><main class="yun-main lt-md:w-full" flex="~ center"><!--[--><div class="content w-full md:w-3xl lg:w-2xl xl:w-2xl 2xl:w-4xl" flex="~ col grow" p="lt-md:0"><div class="yun-card flex-center rounded-2 overflow-hidden" flex="col" min-h="100px" bg="$va-c-bg-light" m="0" style="--card-c-primary:var(--va-c-text);"><!----><!----><div class="yun-card-body relative" w="full" flex="~ col" items="center"><!--[--><!----><div class="mt-8 mb-4"><!--[--><header class="post-header"><h1 p="2" text="2xl center" font="serif black" style="color:var(--va-c-text)" class="post-title flex-center"><div m="r-1 t-1px" inline-flex class="i-ri-github-line icon"></div><span inline-flex class="leading-none">mRNA-Forge：一个可审计的 mRNA 序列优化 Agent</span></h1></header><!--]--></div><!--[--><!--[--><!--[--><!--[--><!----><div flex="~ center" text="sm" class="post-meta-col post-meta gap-4"><div class="post-time flex items-center gap-4"><span class="posted-time inline-flex-center gap-1" title="发表于2026-08-21 10:30:00"><div class="inline-block" i-ri-calendar-line></div><time class="op-80">2026-08-21</time></span><span class="edited-time inline-flex-center gap-1" title="更新于2026-10-10 00:49:39"><div i-ri-calendar-2-line></div><time class="op-80">2026-10-10</time></span></div><!--[--><!--]--><div class="inline-flex-center gap-4"><div class="inline-flex-center post-counter gap-4"><span class="word-count inline-flex-center gap-1" title="本文字数"><div class="inline-block" i-ri-file-word-line></div><span class="op-80">767</span></span><span class="reading-time inline-flex-center gap-1" title="阅读时长"><div i-ri-timer-line></div><time class="op-80">4m</time></span></div><!----><!----></div></div><!--]--><!----><div class="inline-flex mt-2" text="sm" py="1"><a href="/categories?category=%E9%A1%B9%E7%9B%AE" class="transition post-category inline-flex-center text-xs border-$va-c-divider" px-2 h="7" border rounded-full hover="bg-blue-500 text-white"><div m="x-1" inline-flex i-ri-folder-2-line></div><span>项目</span></a><span mx="2"></span><div class="post-tags inline-flex" items="center" gap="1" flex="wrap 1" justify="end"><!--[--><a href="/tags/?tag=mRNA" class="transition post-tag inline-flex-center text-xs border-$va-c-divider" px-2 h="7" rounded-full border hover="bg-blue-500"><span>mRNA</span></a><a href="/tags/?tag=%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF" class="transition post-tag inline-flex-center text-xs border-$va-c-divider" px-2 h="7" rounded-full border hover="bg-blue-500"><span>生物信息</span></a><a href="/tags/?tag=AI" class="transition post-tag inline-flex-center text-xs border-$va-c-divider" px-2 h="7" rounded-full border hover="bg-blue-500"><span>AI</span></a><a href="/tags/?tag=Agent" class="transition post-tag inline-flex-center text-xs border-$va-c-divider" px-2 h="7" rounded-full border hover="bg-blue-500"><span>Agent</span></a><a href="/tags/?tag=Python" class="transition post-tag inline-flex-center text-xs border-$va-c-divider" px-2 h="7" rounded-full border hover="bg-blue-500"><span>Python</span></a><!--]--></div></div><!--]--><!--]--><!--]--><div p="x-4 b-8" class="sm:px-6 lg:px-12 xl:px-16" w="full"><!--[--><!--]--><!--[--><!-- <Transition appear> --><article class="markdown-body"><!--[--><!----><!----><!--[--><!--]--><!--[--><p>mRNA-Forge 是一个面向生物序列设计的 Agent demo。它把蛋白序列转成候选 mRNA，再用确定性工具完成质量评估、反翻译验证和报告生成。</p><p><strong><a href="https://github.com/wujizhesan/mrna-forge" target="_blank" rel="noreferrer">在 GitHub 查看源码</a></strong></p><h2 id="它解决什么问题" tabindex="-1">它解决什么问题 <a class="header-anchor" href="#它解决什么问题" aria-label="Permalink to &quot;它解决什么问题&quot;">​</a></h2><p>序列优化不能只看一个“模型分数”。一个可交付的工作流至少要回答四个问题：</p><ol><li>生成的 mRNA 是否忠实编码原始蛋白；</li><li>密码子、GC、GC3、UpA、UpU 和同聚物指标如何；</li><li>不同优化策略的差异是什么；</li><li>每个结论能否回溯到具体工具和输入。</li></ol><p>因此项目采用两层结构：</p><div class="language-text"><button title="Copy code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code"><code v-pre><span class="line"><span>LLM Agent：选择工具、组织步骤、解释结果</span></span>
+<span class="line"><span>              ↓</span></span>
+<span class="line"><span>确定性工具层：优化、评分、反翻译验证、benchmark</span></span>
+<span class="line"><span>              ↓</span></span>
+<span class="line"><span>结构化结果：指标、规则判定、序列和 HTML 报告</span></span></code></pre><button class="code-block-unfold-btn"></button></div><p>LLM 不直接生成指标，也不负责“编造”实验结论；所有数值来自本地计算。</p><h2 id="已验证的-demo" tabindex="-1">已验证的 demo <a class="header-anchor" href="#已验证的-demo" aria-label="Permalink to &quot;已验证的 demo&quot;">​</a></h2><p>项目使用真实荧光素酶蛋白序列作为 demo，长度为 550 aa。</p><p>当前 greedy 优化路径可以完成：</p><ul><li>生成 1650 nt mRNA；</li><li>反翻译结果与原蛋白一致；</li><li>CAI：1.000；</li><li>GC：65.2%；</li><li>表达评分：0.602；</li><li>规则系统给出 <strong>REVIEW</strong>，原因是 GC 高于当前线性 mRNA 阈值。</li></ul><p>这里保留 <strong>REVIEW</strong> 很重要：优化不是单指标越高越好，而是在表达、稳定性和结构之间权衡。</p><p>项目还保留了 VaxPress 进化优化路径，并通过 naive / greedy / VaxPress 对照实验观察不同策略的取舍。</p><h2 id="agent-和工具" tabindex="-1">Agent 和工具 <a class="header-anchor" href="#agent-和工具" aria-label="Permalink to &quot;Agent 和工具&quot;">​</a></h2><p>Agent 可以通过 function-calling 编排：</p><ul><li><strong>optimize</strong>：生成候选 mRNA；</li><li><strong>score</strong>：计算 CAI、GC、GC3、UpA、UpU 和规则判定；</li><li><strong>verify</strong>：反翻译并检查蛋白序列一致性；</li><li><strong>benchmark</strong>：比较不同编码策略；</li><li>Streamlit UI：展示指标、雷达图、滑窗 GC、报告和解释。</li></ul><p>项目同时提供 rule 模式。没有 API Key 时，核心工作流仍然可以离线运行。</p><h2 id="当前边界" tabindex="-1">当前边界 <a class="header-anchor" href="#当前边界" aria-label="Permalink to &quot;当前边界&quot;">​</a></h2><p>这不是临床或生产级序列设计系统。目前的表达评分是可解释的启发式评分，还没有用实验表达数据校准；circRNA 和 saRNA 也仍处于规则扩展阶段。后续可以接入真实表达数据、UTR/Kozak 设计、RNA 结构约束和更严格的外部 benchmark。</p><h2 id="快速开始" tabindex="-1">快速开始 <a class="header-anchor" href="#快速开始" aria-label="Permalink to &quot;快速开始&quot;">​</a></h2><div class="language-bash"><button title="Copy code" class="copy"></button><span class="lang">bash</span><pre class="shiki shiki-themes github-light github-dark vp-code"><code v-pre><span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">python</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> -m</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> venv</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> .venv</span></span>
+<span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">.venv\Scripts\pip</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> install</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> -r</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> requirements.txt</span></span>
+<span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">.venv\Scripts\python</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> agent.py</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> --demo</span></span>
+<span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">.venv\Scripts\streamlit</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> run</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> app_streamlit.py</span></span></code></pre><button class="code-block-unfold-btn"></button></div><p>浏览器打开 <a href="http://localhost:8501" target="_blank" rel="noreferrer">http://localhost:8501</a>。</p><blockquote><p>公开仓库不包含 API Key。需要 Agent 编排时，请通过环境变量配置 DEEPSEEK_API_KEY。</p></blockquote><!--]--><!--]--><!----><!----></article><!-- </Transition> --><!--]--><!--[--><!--[--><!--[--><!----><ul class="post-copyright" m="y-4"><li class="post-copyright-author"><strong>本文作者：</strong><span>秋叶白</span></li><li class="post-copyright-link"><strong>本文链接：</strong><a href="https://wujizhesan.github.io/posts/mrna-forge" target="_blank" title="本文链接">https://wujizhesan.github.io/posts/mrna-forge</a></li><li class="post-copyright-license"><strong>版权声明：</strong><span>本博客所有文章除特别声明外，均默认采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 ">CC BY-NC-SA</a> 许可协议。</span></li></ul><!--]--><!--]--><!--]--></div><!--]--></div><!----></div><!--[--><!--]--><!--[--><div class="post-nav"><div class="post-nav-item"><a href="/posts/bio-research-agent-platform" class="post-nav-prev" title="Bio Research Agent Platform：把异构科研工具装进同一套插件契约"><div class="icon" i-ri-arrow-left-s-line></div><span class="title truncate" text="sm">Bio Research Agent Platform：把异构科研工具装进同一套插件契约</span></a></div><div class="post-nav-item"><a href="/posts/cadd-virtual-screening" class="post-nav-next" title="CADD 虚拟筛选流水线：从真实 EGFR 抑制剂到可复现筛选"><span class="title truncate" text="sm">CADD 虚拟筛选流水线：从真实 EGFR 抑制剂到可复现筛选</span><div class="icon" i-ri-arrow-right-s-line></div></a></div></div><!--]--><!--[--><!--]--><!----><!--[--><!--
+    Empty placeholder, meant to be overridden by the user (see demo/yun/components/YunAdBoard.vue).
+    `v-if="false"` renders a comment node instead of a real element: this avoids the SSR hydration
+    crash a raw `<template>` causes (#711), while still adding no gap to the parent flex layout,
+    which an empty `<div>` would (ab57216f).
+  --><!----><!--]--><!--[--><!--]--><!--[--><!--]--></div><!--]--></main><!--[--><button class="xl:hidden toc-btn shadow-md fixed yun-icon-btn z-20 bg-$va-c-bg-soft" opacity="75" right="4" bottom="19"><div i-ri-file-list-line></div></button><!----><aside flex="~ col" class="va-card yun-aside min-h-sm rounded-2" text="center" overflow="auto"><div class="w-full" flex="~ col" pb-2><!--[--><h2 m="t-6 b-2" font="serif black">文章目录</h2><div style="display:none;" data-v-d9db7c40><div class="content" data-v-d9db7c40><div class="outline-title" data-v-d9db7c40>本页</div><div class="outline-marker" data-v-d9db7c40></div><nav aria-labelledby="doc-outline-aria-label" data-v-d9db7c40><span id="doc-outline-aria-label" class="visually-hidden" data-v-d9db7c40> Table of Contents for current page </span><ul class="root va-toc relative z-1 css-i18n-toc" data-v-d9db7c40 data-v-0a3661f1><!--[--><!--]--></ul></nav></div></div><!--]--><div class="flex-grow"></div><!----></div></aside><!--]--><!--]--></div><footer flex="~ col" class="relative yun-footer va-footer px-4 py-4 pt-0 text-$va-c-text-light w-full mt-14" bg="white dark:$va-c-bg-soft" text="center sm"><div class="yun-cloud absolute top--10 left-0 right-0"><svg class="waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" fill="var(--yun-c-cloud)"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"></use><use xlink:href="#gentle-wave" x="48" y="3"></use><use xlink:href="#gentle-wave" x="48" y="5"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><!----><div class="copyright flex justify-center items-center gap-2" p="1"><span> © <!--[-->2019 - <!--]--> 2026</span><a class="animate-pulse inline-flex" href="/" target="_blank" title="留沙碎念"><div class="i-ri-cloud-line"></div></a><span>秋叶白</span></div><div class="powered" m="2"><span>由 <a href="https://github.com/YunYouJun/valaxy.git" target="_blank" rel="noopener">Valaxy</a> <span class="op-60">v1.0.0-rc.5</span> 驱动</span><span mx-1>|</span><span><span>主题</span><span mx-1>-</span><a href="https://github.com/YunYouJun/valaxy.git" title="valaxy-theme-yun" target="_blank">Yun</a><span class="ml-1 op-60">v1.0.0-rc.5</span></span></div><!--[--><!--]--><div class="yun-footer-gradient"></div></footer></div><!--]--></div><script>window.__INITIAL_STATE__='{"pinia":{"yun-app":{"bannerAnimationDone":false},"app":{"showLoading":true},"site":{},"routerStore":{}}}'</script><script type="application/ld+json" data-hid="schema-org-graph">{"@context":"https://schema.org","@graph":[{"@id":"https://wujizhesan.github.io/#identity","@type":"Person","name":"秋叶白","url":"https://wujizhesan.github.io/","image":{"@id":"https://wujizhesan.github.io/#/schema/image/1"},"sameAs":["https://github.com/wujizhesan","https://y.music.163.com/m/user?id=1986115233","https://space.bilibili.com/194244401","/atom.xml"]},{"@id":"https://wujizhesan.github.io/#website","@type":"WebSite","dateModified":"2026-10-09T16:49:39.581Z","datePublished":"2026-08-21T10:30:00+08:00","inLanguage":"zh-CN","name":"mRNA-Forge：一个可审计的 mRNA 序列优化 Agent","url":"https://wujizhesan.github.io/","publisher":{"@id":"https://wujizhesan.github.io/#identity"}},{"@id":"https://wujizhesan.github.io/#webpage","@type":"WebPage","dateModified":"2026-10-09T16:49:39.581Z","datePublished":"2026-08-21T02:30:00.000Z","description":"将蛋白序列优化、确定性质量控制、VaxPress 和 LLM 工具编排组合成一个可复现的 mRNA 设计工作流。","name":"mRNA-Forge：一个可审计的 mRNA 序列优化 Agent","url":"https://wujizhesan.github.io/","about":{"@id":"https://wujizhesan.github.io/#identity"},"isPartOf":{"@id":"https://wujizhesan.github.io/#website"},"potentialAction":[{"@type":"ReadAction","target":["https://wujizhesan.github.io/"]}]},{"@id":"https://wujizhesan.github.io/#article","dateModified":"2026-10-09T16:49:39.581Z","datePublished":"2026-08-21T02:30:00.000Z","description":"将蛋白序列优化、确定性质量控制、VaxPress 和 LLM 工具编排组合成一个可复现的 mRNA 设计工作流。","headline":"mRNA-Forge：一个可审计的 mRNA 序列优化 Agent","inLanguage":"zh-CN","thumbnailUrl":"https://wujizhesan.github.io/yun.svg","@type":["Article","BlogPosting"],"author":{"@id":"https://wujizhesan.github.io/#/schema/person/1"},"image":{"@id":"https://wujizhesan.github.io/#/schema/image/2"},"isPartOf":{"@id":"https://wujizhesan.github.io/#webpage"},"mainEntityOfPage":{"@id":"https://wujizhesan.github.io/#webpage"},"publisher":{"@id":"https://wujizhesan.github.io/#identity"}},{"@id":"https://wujizhesan.github.io/#/schema/person/1","@type":"Person","name":"秋叶白","url":"https://github.com/wujizhesan"},{"@id":"https://wujizhesan.github.io/#/schema/image/1","@type":"ImageObject","contentUrl":"https://github.com/wujizhesan.png?size=256","inLanguage":"zh-CN","url":"https://github.com/wujizhesan.png?size=256"},{"@id":"https://wujizhesan.github.io/#/schema/image/2","@type":"ImageObject","contentUrl":"https://wujizhesan.github.io/yun.svg","inLanguage":"zh-CN","url":"https://wujizhesan.github.io/yun.svg"}]}</script>
+  
 </body>
 </html>

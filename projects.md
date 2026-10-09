@@ -3,13 +3,39 @@ title: 我的项目
 icon: i-ri-code-box-line
 layout: projects
 cover: /images/meicode-team.webp
-description: 秋叶白的开源项目与技术作品
+description: 秋叶白的开源项目、科研平台与技术作品
 keywords:
   - MeiCode
   - TypeScript
   - AI
   - CLI
+  - 科研平台
+  - 发酵软测量
 projects:
+  research:
+    title: 科研
+    emoji: 🧪
+    collection:
+      - name: Bio Research Agent Platform
+        emoji: 🧬
+        desc: 可插拔的生物科研 Agent 平台。用统一插件契约、领域注册表和工作流运行器，把 CADD、组学、mRNA 序列设计与文献检索接进同一套工具协议，并配套任务调度、插件沙箱与可观测性。
+        color: '#0F9D58'
+        url: https://github.com/wujizhesan/bio-research-agent-platform
+        docs: /posts/bio-research-agent-platform/
+        github: wujizhesan/bio-research-agent-platform
+      - name: 发酵软测量与数据驱动选株
+        emoji: 📈
+        desc: 面向适应性进化菌株的发酵软测量方案。用在线信号和少量离线化验估计 X/S/P 并给出预测区间，在公开真实发酵数据上执行冻结协议、谱系级嵌套留出与独立核验。
+        color: '#1A73E8'
+        url: /posts/fermentation-soft-sensor/
+        docs: /posts/fermentation-soft-sensor/
+      - name: CADD 虚拟筛选流水线
+        emoji: 💊
+        desc: 以 6 个已上市 EGFR 抑制剂为活性对照，AutoDock Vina 做分子对接、RDKit 处理分子、随机森林做活性预测的可复现虚拟筛选流水线。
+        color: '#7C4DFF'
+        url: https://github.com/wujizhesan/cadd-virtual-screening
+        docs: /posts/cadd-virtual-screening/
+        github: wujizhesan/cadd-virtual-screening
   tools:
     title: 工具
     emoji: 🔧

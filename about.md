@@ -25,21 +25,26 @@ keywords:
 
 ## 内容路线
 
-目前这里有三条内容线：
+目前这里有四条内容线：
 
 - **技术**：Agent、TypeScript、Node.js、命令行工具与工程方法。
 - **项目**：MeiCode 这样的真实项目，以及实现过程中的取舍。
+- **科研**：生物科研 Agent 平台、发酵软测量与数据驱动选株，以及那些没做出效果的结果。
 - **音乐**：秋叶白的 Beat、哈喽MAI 的 AI 音乐视频和其他创作实验。
 
 ## 现在在做什么
 
 - 持续完善终端多智能体 AI 助手 [MeiCode](https://github.com/wujizhesan/meicode)
+- 维护可插拔的生物科研 Agent 平台 [Bio Research Agent Platform](https://github.com/wujizhesan/bio-research-agent-platform)
+- 推进发酵软测量与数据驱动选株研究，把冻结协议、嵌套留出与独立核验做扎实
 - 学习并整理 AI Agent 的工具、记忆、规划、多智能体与评估方法
 - 以「秋叶白」制作原创 Beat，以「哈喽MAI」整理 AI 音乐视频实验
 - 维护「留沙碎念」，把项目经验沉淀为可以复用的文章
 
 ## 关注的方向
 
+- 生物科研平台与可复现的科研工程
+- 发酵过程软测量、过程传感与数据驱动选株
 - TypeScript、Node.js 与命令行工具
 - AI Agent、工具调用与多智能体协作
 - 自动化工作流与工程效率
@@ -48,6 +53,27 @@ keywords:
 > 更完整的个人经历、技术栈与学习路线将在后续补充。
 
 ## 项目
+
+### Bio Research Agent Platform
+
+一个可插拔的生物科研 Agent 平台，把 CADD、组学分析、mRNA 序列设计、文献证据与本地知识检索接进同一套插件契约，并补齐任务调度、插件沙箱与可观测性。
+
+- [查看项目页](/projects/)
+- [查看 GitHub 仓库](https://github.com/wujizhesan/bio-research-agent-platform)
+- [阅读平台介绍文章](/posts/bio-research-agent-platform/)
+
+### 发酵软测量与数据驱动选株
+
+面向适应性进化菌株的发酵软测量研究：用在线信号和少量离线化验估计菌体、底物与产物浓度并给出预测区间，在公开真实发酵数据上执行冻结协议与谱系级嵌套留出。
+
+- [阅读研究方案与结果](/posts/fermentation-soft-sensor/)
+
+### CADD 虚拟筛选流水线
+
+以 6 个已上市 EGFR 抑制剂为活性对照的虚拟筛选流水线，AutoDock Vina 做对接、RDKit 处理分子、随机森林做活性预测。
+
+- [查看 GitHub 仓库](https://github.com/wujizhesan/cadd-virtual-screening)
+- [阅读项目复盘](/posts/cadd-virtual-screening/)
 
 ### MeiCode
 
@@ -78,6 +104,8 @@ MeiCode 是一个运行在终端里的命令行 AI 助手，支持文件与命�
 
 - [x] 做出可以实际使用的多智能体终端助手
 - [x] 建立自己的技术博客并持续发布内容
+- [x] 搭建可插拔的生物科研 Agent 平台
+- [ ] 完成发酵软测量的前瞻性盲测与独立发酵复验
 - [ ] 完善 MeiCode 的文档、示例与工程说明
 - [ ] 整理更多真实项目和技术复盘
 - [ ] 补充完整的个人经历与公开简历

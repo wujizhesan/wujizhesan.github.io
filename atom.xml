@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wujizhesan.github.io/</id>
     <title>留沙碎念</title>
-    <updated>2026-08-14T14:32:57.438Z</updated>
+    <updated>2026-10-09T16:50:45.294Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>秋叶白</name>
@@ -15,6 +15,52 @@
     <logo>https://github.com/wujizhesan.png?size=256</logo>
     <icon>https://wujizhesan.github.io/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2026 © 秋叶白</rights>
+    <entry>
+        <title type="html"><![CDATA[发酵软测量：当"可复现"成为第一指标]]></title>
+        <id>https://wujizhesan.github.io/posts/fermentation-soft-sensor</id>
+        <link href="https://wujizhesan.github.io/posts/fermentation-soft-sensor"/>
+        <updated>2026-10-09T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[面向适应性进化菌株的发酵软测量与数据驱动选株。用在线信号和少量离线化验估计 X/S/P 并给出预测区间，在公开真实发酵数据上执行冻结协议、嵌套留出与独立核验，并如实记录所有没做出效果的结果。]]></summary>
+        <content type="html"><![CDATA[<p>发酵过程的在线信号（pH、溶氧、温度、转速、通气、尾气）几乎永远不缺，缺的是<strong>你真正关心的那几个数</strong>：菌体浓度 <code>X</code>、限制性底物 <code>S</code>、目标产物 <code>P</code>。它们通常只能靠离线化验拿到，而化验意</p>
+<br/><p>访问 <a href="https://wujizhesan.github.io/posts/fermentation-soft-sensor" target="_blank">https://wujizhesan.github.io/posts/fermentation-soft-sensor</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>秋叶白</name>
+            <email>i@valaxy.site</email>
+            <uri>https://github.com/wujizhesan</uri>
+        </author>
+        <published>2026-10-09T14:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bio Research Agent Platform：把异构科研工具装进同一套插件契约]]></title>
+        <id>https://wujizhesan.github.io/posts/bio-research-agent-platform</id>
+        <link href="https://wujizhesan.github.io/posts/bio-research-agent-platform"/>
+        <updated>2026-10-04T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[一个可插拔的生物科研 Agent 平台：用统一插件契约、领域注册表和工作流运行器，把 CADD、组学、mRNA 序列设计与文献检索接进同一套 Agent 工具协议，并补上任务调度、插件沙箱与可观测性。]]></summary>
+        <content type="html"><![CDATA[<p>做科研工具集成，最容易走的弯路是&quot;一个工具写一套接口&quot;。分子对接要用 AutoDock Vina 和 RDKit，组学要做差异表达和通路富集，序列设计要算密码子和折叠结构，文献检索要连 PubMed</p>
+<br/><p>访问 <a href="https://wujizhesan.github.io/posts/bio-research-agent-platform" target="_blank">https://wujizhesan.github.io/posts/bio-research-agent-platform</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>秋叶白</name>
+            <email>i@valaxy.site</email>
+            <uri>https://github.com/wujizhesan</uri>
+        </author>
+        <published>2026-10-04T12:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[mRNA-Forge：一个可审计的 mRNA 序列优化 Agent]]></title>
+        <id>https://wujizhesan.github.io/posts/mrna-forge</id>
+        <link href="https://wujizhesan.github.io/posts/mrna-forge"/>
+        <updated>2026-08-21T02:30:00.000Z</updated>
+        <summary type="html"><![CDATA[将蛋白序列优化、确定性质量控制、VaxPress 和 LLM 工具编排组合成一个可复现的 mRNA 设计工作流。]]></summary>
+        <content type="html"><![CDATA[<p>mRNA-Forge 是一个面向生物序列设计的 Agent demo。它把蛋白序列转成候选 mRNA，再用确定性工具完成质量评估、反翻译验证和报告生成。</p>
+<p>**[在 GitHub 查看源码](htt</p>
+<br/><p>访问 <a href="https://wujizhesan.github.io/posts/mrna-forge" target="_blank">https://wujizhesan.github.io/posts/mrna-forge</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>秋叶白</name>
+            <email>i@valaxy.site</email>
+            <uri>https://github.com/wujizhesan</uri>
+        </author>
+        <published>2026-08-21T02:30:00.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[CADD 虚拟筛选流水线：从真实 EGFR 抑制剂到可复现筛选]]></title>
         <id>https://wujizhesan.github.io/posts/cadd-virtual-screening</id>

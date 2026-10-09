@@ -6,6 +6,9 @@
 
 ## Posts
 
+- [发酵软测量：当"可复现"成为第一指标](https://wujizhesan.github.io/posts/fermentation-soft-sensor.md): 面向适应性进化菌株的发酵软测量与数据驱动选株。用在线信号和少量离线化验估计 X/S/P 并给出预测区间，在公开真实发酵数据上执行冻结协议、嵌套留出与独立核验，并如实记录所有没做出效果的结果。
+- [Bio Research Agent Platform：把异构科研工具装进同一套插件契约](https://wujizhesan.github.io/posts/bio-research-agent-platform.md): 一个可插拔的生物科研 Agent 平台：用统一插件契约、领域注册表和工作流运行器，把 CADD、组学、mRNA 序列设计与文献检索接进同一套 Agent 工具协议，并补上任务调度、插件沙箱与可观测性。
+- [mRNA-Forge：一个可审计的 mRNA 序列优化 Agent](https://wujizhesan.github.io/posts/mrna-forge.md): 将蛋白序列优化、确定性质量控制、VaxPress 和 LLM 工具编排组合成一个可复现的 mRNA 设计工作流。
 - [CADD 虚拟筛选流水线：从真实 EGFR 抑制剂到可复现筛选](https://wujizhesan.github.io/posts/cadd-virtual-screening.md): 用 AutoDock Vina、RDKit 与 scikit-learn 构建 EGFR 虚拟筛选流水线，并结合 ML 活性预测，完成一次"真实数据 + 对抗性审查"驱动的生物计算实践。
 - [从零理解 AI Agent：以 MeiCode 为例的学习与实践](https://wujizhesan.github.io/posts/agent-learning-guide.md): 从大模型、工具调用和 Agent Loop 开始，系统学习规划、记忆、RAG、多智能体、安全与评估，并结合 MeiCode 的真实实现理解工程取舍。
 - [MeiCode：终端里的多智能体 AI 助手](https://wujizhesan.github.io/posts/meicode.md): 了解 MeiCode 的 Agent 主循环、多智能体团队、Workflow、权限机制与快速开始方式。
@@ -15,12 +18,12 @@
 ## Pages
 
 - [关于](https://wujizhesan.github.io/about.md): 关于秋叶白与留沙碎念
-- [归档](https://wujizhesan.github.io/archives.md)
 - [分类](https://wujizhesan.github.io/categories.md)
+- [归档](https://wujizhesan.github.io/archives.md)
 - [我做的几首歌](https://wujizhesan.github.io/music.md): 秋叶白发布在网易云音乐的 Beat 作品与创作介绍
-- [我的项目](https://wujizhesan.github.io/projects.md): 秋叶白的开源项目与技术作品
-- [赞助与支持](https://wujizhesan.github.io/sponsors.md): 支持留沙碎念与 MeiCode 的持续维护
 - [站点地图](https://wujizhesan.github.io/sites.md): 留沙碎念的内容、项目与公开入口
+- [我的项目](https://wujizhesan.github.io/projects.md): 秋叶白的开源项目、科研平台与技术作品
+- [赞助与支持](https://wujizhesan.github.io/sponsors.md): 支持留沙碎念与 MeiCode 的持续维护
 - [标签](https://wujizhesan.github.io/tags.md)
 
 ## About
